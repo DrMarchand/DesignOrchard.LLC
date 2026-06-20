@@ -1,93 +1,114 @@
-# 🌴 DESIGN ORCHARD LLC ©
-## PROFESSIONAL DESIGN & PUBLISHING ENTITY
+🌴 DESIGN ORCHARD LLC ©
 
-**Entity:** Design Orchard LLC  
-**Status:** Active  
-**Jurisdiction:** 🌎{FL.|🇺🇸}  
-**Operational Classification:** Professional Services  
+CREATIVE TECHNOLOGY, DESIGN & PUBLISHING COMPANY
 
----
+Entity: Design Orchard LLC
+Status: Active
+Jurisdiction: Florida, United States
+Operational Classification: Creative Technology Services
 
-## 1. STATEMENT OF OPERATION
+⸻
 
-Design Orchard LLC operates as a professional entity engaged in the development,  
-documentation, and publication of design systems, visual frameworks, and creative works.
+1. STATEMENT OF OPERATION
 
-This repository functions as a **public operational record** demonstrating:  
-- Continuity of business activity  
-- Defined scope of services  
-- Documented professional practice  
+Design Orchard LLC operates as a creative technology, design, and publishing company engaged in the development, documentation, publication, and maintenance of design systems, visual frameworks, software, digital media, and creative works.
 
-No personal records, sensitive data, or regulated information are stored in this repository.
+This repository functions as a public operational record demonstrating:
 
----
+* Continuity of business activity
+* Defined scope of services
+* Documented business operations
+* Published creative and technical work
 
-## 2. SCOPE OF SERVICES
+No personal records, sensitive data, regulated information, or confidential client information are stored in this repository.
 
-Design Orchard LLC provides the following services:  
-- Design system development  
-- Visual design and visual architecture frameworks  
-- Documentation and publication of design methodologies  
-- Print design, layout, and production guidance  
-- Carpentry, fabrication, and dimensional design consultation  
+⸻
 
-Design Orchard LLC does **not** provide:  
-- Medical services  
-- Engineering services  
-- Architectural services  
-- Licensed trade execution  
+2. SCOPE OF SERVICES
 
-All engagements are limited to professional design and consulting services.
+Design Orchard LLC may provide services including:
 
----
+* Graphic design
+* Visual design systems
+* Brand and identity development
+* Digital media production
+* Print design and publication support
+* Design system development
+* Documentation systems
+* Web design and development
+* Software and application development
+* Creative technology services
+* Workflow and knowledge-system design
+* Research and development activities
 
-## 3. PROFESSIONAL BOUNDARIES
+Design Orchard LLC does not provide:
 
-Design Orchard LLC operates within clearly defined boundaries:  
-- Guidance is provided as professional consulting only  
-- Final decisions remain the responsibility of the client  
-- Work outside verified scope is not undertaken  
+* Medical services
+* Legal services
+* Architectural services
+* Financial advisory services
+* Licensed engineering services
+* Licensed trade execution
 
-This ensures safety, accuracy, and contractual clarity.
+Unless specifically stated through separate authorization, licensing, or certification.
 
----
+⸻
 
-## 4. OPERATIONAL CONTINUITY
+3. OPERATIONAL BOUNDARIES
 
-```txt
+Design Orchard LLC operates within clearly defined business and technical boundaries:
+
+* Information is provided for educational, creative, technical, and informational purposes.
+* Final implementation decisions remain the responsibility of the client, user, or project owner.
+* Work outside verified scope is not undertaken.
+* Public documentation should not be interpreted as regulated professional advice.
+
+This structure supports operational clarity, safety, and long-term maintainability.
+
+⸻
+
+4. OPERATIONAL CONTINUITY
+
 • Documented methodologies
 • Versioned records
 • Controlled publication
 • Long-term maintenance
+• Knowledge preservation
 
-This repository exists to demonstrate ongoing operational presence and continuity.
+This repository exists to demonstrate ongoing operational presence, continuity, and publication history.
 
 ⸻
 
 5. REPOSITORY FUNCTION
 
 /docs          # authoritative documentation
-/frameworks    # published design systems
+/frameworks    # published systems and methodologies
 /architecture  # structural references
 /assets        # controlled materials
+/software      # applications, tools, and code
 
-All materials are maintained as records of professional output.
+All materials are maintained as records of creative, technical, and operational output.
 
 ⸻
 
 6. LICENSING
 
-Core Operational Materials (Software, Lab Frameworks, Internal Systems):
-	•	Proprietary — all rights reserved
-	•	Owned and maintained by Design Orchard LLC
+Core Operational Materials
 
-Creative Outputs & Artwork (Visuals, Publications, Open Materials):
-	•	Released for free use, adaptation, and redistribution
-	•	Users are encouraged to copy, modify, and share these works
-	•	Attribution is optional but appreciated
-	•	No license fees or permissions are required
+(Software, Frameworks, Internal Systems)
 
-This structure ensures freedom for the community while protecting core intellectual property and operational infrastructure.
+* Proprietary unless otherwise licensed
+* Owned and maintained by Design Orchard LLC
+
+Creative Outputs & Open Materials
+
+Where specifically designated:
+
+* May be shared, adapted, redistributed, or reused
+* Attribution is appreciated
+* Additional licensing terms may apply on a per-project basis
+
+Users should consult repository-specific licenses where provided.
 
 ⸻
 
@@ -95,32 +116,35 @@ This structure ensures freedom for the community while protecting core intellect
 
 Design Orchard™
 
-All names, logos, and visual marks are the property of Design Orchard LLC.
-Use of these marks does not imply endorsement.
+Names, logos, visual identifiers, and associated marks remain the property of their respective owners.
+
+Use of any mark does not imply endorsement, affiliation, or authorization.
 
 ⸻
 
 8. CANONICAL NOTICE
 
-For official ownership, licensing, and operational details, see:
-https://drmarchandslaboratory.com/NOTICE
+For official ownership, licensing, and operational information, refer to the authoritative notices maintained by Design Orchard LLC.
 
-This repository reflects the current operational state of Design Orchard LLC, including the Lab’s outputs and its autonomous Library bioproduct.
+This repository reflects the current public operational state of Design Orchard LLC and its associated projects, publications, systems, and creative works.
 
 ⸻
 
 9. DECLARATION
 
 This repository is maintained as evidence of:
-	•	Professional intent
-	•	Operational discipline
-	•	Business continuity
 
-Design Orchard LLC maintains this repository as part of standard business practice,
-while empowering others to freely engage with, use, and remix its creative outputs.
+* Business continuity
+* Operational discipline
+* Knowledge preservation
+* Creative and technical development
+* Public publication activity
+
+Design Orchard LLC maintains this repository as part of standard business practice while encouraging learning, collaboration, and responsible engagement with publicly released materials.
 
 ⸻
 
 🌱 Design; From the Ground, Up.
-JK Marchand
-kyle@drmarchandslab.com
+
+Joseph Kyle Marchand
+Design Orchard LLC
