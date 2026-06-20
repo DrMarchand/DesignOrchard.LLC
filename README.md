@@ -1,160 +1,130 @@
-🌴 DESIGN ORCHARD LLC ©
+🌴 Design Orchard LLC
 
-CREATIVE TECHNOLOGY, DESIGN & PUBLISHING COMPANY
-
-Entity: Design Orchard LLC
-Status: Active
-Jurisdiction: Florida, United States
-Operational Classification: Creative Technology Services
+Creative Technology • Design • Publishing
 
 ⸻
 
-1. STATEMENT OF OPERATION
+🌱 Design; From the Ground, Up.
 
-Design Orchard LLC operates as a creative technology, design, and publishing company engaged in the development, documentation, publication, maintenance, and distribution of software, digital media, print media, visual frameworks, design systems, and creative works.
+Design Orchard LLC is a Florida-based creative technology company owned and operated by Joseph Kyle Marchand.
 
-This repository functions as a public operational record demonstrating:
+The company currently functions as a single-owner creative and technical studio focused on design, documentation, digital media, software, publishing, and related creative technology work.
 
-* Continuity of business activity
-* Defined scope of operations
-* Published creative and technical work
-* Documented business activity
-* Long-term project maintenance
-
-No personal records, sensitive data, confidential client information, regulated records, or private operational credentials are stored in this repository.
+This repository serves as a public record of ongoing business activity, creative development, technical development, and publication history.
 
 ⸻
 
-2. SCOPE OF ACTIVITIES
+✨ What Design Orchard Does
 
 Design Orchard LLC may engage in activities including:
 
-* Graphic design
-* Digital media production
-* Print media development
-* Design system development
-* Visual identity development
-* Documentation systems
-* Creative publishing
-* Software development
-* Application development
-* Web design and development
-* Knowledge management systems
-* Workflow architecture
-* Research and development
-* Creative technology services
+* 🎨 Graphic design
+* 🖥️ Software development
+* 🌐 Web design and development
+* 📚 Documentation systems
+* 📰 Digital and print publishing
+* 🎬 Digital media production
+* 🧩 Design systems and visual frameworks
+* 🧠 Knowledge organization
+* ⚙️ Workflow architecture
+* 🔬 Research and development
+* 🚀 Creative technology services
 
-Design Orchard LLC does not provide:
+⸻
 
-* Medical services
-* Legal services
-* Financial advisory services
-* Architectural services
+👤 Ownership and Operation
+
+Design Orchard LLC is currently:
+
+* Owned by Joseph Kyle Marchand
+* Operated by Joseph Kyle Marchand
+* Maintained as a single-owner business
+* Used to organize creative, technical, publishing, and documentation work
+
+Additional contributors, collaborators, contractors, or employees may be added in the future if formally authorized.
+
+⸻
+
+🧭 Operating Principles
+
+This repository exists to support:
+
+* 📖 Documented work
+* 🗂️ Version-controlled history
+* 🛠️ Active development
+* 🌱 Long-term maintenance
+* 📢 Public publication
+* 🧠 Knowledge preservation
+* 🧾 Business continuity
+
+No personal records, private credentials, confidential client information, regulated records, or sensitive operational materials are intentionally maintained within this repository.
+
+⸻
+
+🏛️ Repository Structure
+
+/docs          Documentation
+/frameworks    Published systems and methodologies
+/architecture  Structural references
+/assets        Creative and project assets
+/software      Applications, tools, and code
+
+⸻
+
+⚙️ Operating Boundaries
+
+Design Orchard LLC develops creative, technical, educational, and informational materials.
+
+This repository should not be interpreted as providing:
+
+* Medical advice
+* Legal advice
+* Financial advice
 * Licensed engineering services
-* Licensed trade execution
+* Architectural services
+* Licensed trade services
 
-Unless specifically authorized, licensed, certified, or separately disclosed.
-
-⸻
-
-3. OPERATIONAL BOUNDARIES
-
-Design Orchard LLC operates within clearly defined business and technical boundaries.
-
-Public materials are provided for:
-
-* Educational purposes
-* Informational purposes
-* Creative purposes
-* Technical purposes
-* Documentation purposes
-
-Final implementation decisions remain the responsibility of the user, client, project owner, or operator.
-
-Work outside established scope is not undertaken.
+Users remain responsible for their own decisions, implementations, compliance requirements, and use of materials.
 
 ⸻
 
-4. OPERATIONAL CONTINUITY
+📜 Licensing
 
-• Documented methodologies
-• Versioned records
-• Controlled publication
-• Long-term maintenance
-• Knowledge preservation
-• Repository governance
+Core Systems
 
-This repository exists to demonstrate ongoing operational continuity, publication history, and business activity.
+Software, internal frameworks, operational methodologies, documentation systems, and proprietary infrastructure remain protected unless otherwise licensed.
 
-⸻
+Public Creative Works
 
-5. REPOSITORY FUNCTION
+Where specifically designated, public materials may be:
 
-/docs          # authoritative documentation
-/frameworks    # published systems and methodologies
-/architecture  # structural references
-/assets        # controlled materials
-/software      # applications, tools, and code
+* Shared
+* Adapted
+* Remixed
+* Redistributed
 
-All materials are maintained as records of creative, technical, and operational output.
+Please review repository-specific licenses for project-level terms.
 
 ⸻
 
-6. LICENSING
-
-Core Operational Materials
-
-Software, frameworks, internal systems, operational documentation, and proprietary infrastructure remain the property of Design Orchard LLC unless otherwise stated.
-
-Public Creative Materials
-
-Where specifically designated:
-
-* May be shared
-* May be adapted
-* May be redistributed
-* May be reused
-
-Additional licensing terms may apply on a per-project basis.
-
-Users should consult repository-specific licenses where provided.
-
-⸻
-
-7. TRADEMARK NOTICE
-
-Design Orchard™
+🌴 Design Orchard™
 
 Names, logos, visual identifiers, and associated marks remain the property of their respective owners.
 
-Use of any mark does not imply endorsement, sponsorship, partnership, or authorization.
+Use of any mark does not imply endorsement, sponsorship, affiliation, employment, partnership, or authorization.
 
 ⸻
 
-8. CANONICAL NOTICE
-
-For official ownership, licensing, operational information, and public notices, refer to the authoritative records maintained by Design Orchard LLC.
+📌 Canonical Notice
 
 This repository reflects the current public operational state of Design Orchard LLC and its associated projects, publications, systems, and creative works.
 
-⸻
-
-9. DECLARATION
-
-This repository is maintained as evidence of:
-
-* Business continuity
-* Operational discipline
-* Knowledge preservation
-* Creative development
-* Technical development
-* Public publication activity
-
-Design Orchard LLC maintains this repository as part of standard business practice while encouraging responsible engagement with publicly released materials.
+Official notices, ownership information, licensing details, and operational records should be referenced through the authoritative records maintained by Design Orchard LLC.
 
 ⸻
 
 🌱 Design; From the Ground, Up.
 
 Joseph Kyle Marchand
+Owner / Operator
 Design Orchard LLC
