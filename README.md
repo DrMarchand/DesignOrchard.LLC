@@ -2,11 +2,35 @@
 
 🌴 Design Orchard LLC
 
-Creative Technology • Design • Publishing
-
-Design; From the Ground, Up.
-
+<h3>Creative Technology • Design • Publishing</h3>
+<p>
+  <strong>Design; From the Ground, Up.</strong>
+</p>
+<p>
+  <em>A single-owner creative technology company building design systems, software, documentation, media, and publishing infrastructure.</em>
+</p>
 </div>
+
+⸻
+
+<table>
+  <tr>
+    <td><strong>Entity</strong></td>
+    <td>Design Orchard LLC</td>
+  </tr>
+  <tr>
+    <td><strong>Owner / Operator</strong></td>
+    <td>Joseph Kyle Marchand</td>
+  </tr>
+  <tr>
+    <td><strong>Jurisdiction</strong></td>
+    <td>Florida, United States</td>
+  </tr>
+  <tr>
+    <td><strong>Business Focus</strong></td>
+    <td>Creative Technology, Design, Software, Digital Media, Print Media, Documentation, and Publishing</td>
+  </tr>
+</table>
 
 ⸻
 
@@ -16,12 +40,32 @@ Design Orchard LLC is a Florida-based creative technology company owned and oper
 
 The company currently functions as a single-owner creative and technical studio focused on:
 
-Area	Work
-🎨 Design	Graphic design, visual systems, brand assets
-💻 Software	Web development, app development, tools
-📚 Documentation	Knowledge systems, records, publishing frameworks
-📰 Media	Digital media, print media, publication support
-⚙️ Systems	Workflow architecture, automation, research and development
+<table>
+  <tr>
+    <th>Area</th>
+    <th>Work</th>
+  </tr>
+  <tr>
+    <td>🎨 Design</td>
+    <td>Graphic design, visual systems, identity assets, creative layouts</td>
+  </tr>
+  <tr>
+    <td>💻 Software</td>
+    <td>Web development, application development, tools, automation</td>
+  </tr>
+  <tr>
+    <td>📚 Documentation</td>
+    <td>Knowledge systems, records, guides, publishing frameworks</td>
+  </tr>
+  <tr>
+    <td>📰 Media</td>
+    <td>Digital media, print media, publication support</td>
+  </tr>
+  <tr>
+    <td>⚙️ Systems</td>
+    <td>Workflow architecture, creative technology research, operational structure</td>
+  </tr>
+</table>
 
 This repository serves as a public record of ongoing business activity, creative development, technical development, and publication history.
 
@@ -29,19 +73,28 @@ This repository serves as a public record of ongoing business activity, creative
 
 What Design Orchard Does
 
-Design Orchard LLC may engage in:
-
-Graphic Design
-Digital Media
-Print Media
-Web Design
-Software Development
-Application Development
-Creative Publishing
-Documentation Systems
-Workflow Architecture
-Creative Technology Services
-Research and Development
+<table>
+  <tr>
+    <td>Graphic Design</td>
+    <td>Digital Media</td>
+    <td>Print Media</td>
+  </tr>
+  <tr>
+    <td>Web Design</td>
+    <td>Software Development</td>
+    <td>Application Development</td>
+  </tr>
+  <tr>
+    <td>Creative Publishing</td>
+    <td>Documentation Systems</td>
+    <td>Workflow Architecture</td>
+  </tr>
+  <tr>
+    <td>Knowledge Organization</td>
+    <td>Research & Development</td>
+    <td>Creative Technology Services</td>
+  </tr>
+</table>
 
 ⸻
 
@@ -52,22 +105,30 @@ Design Orchard LLC is currently:
 * Owned by Joseph Kyle Marchand
 * Operated by Joseph Kyle Marchand
 * Maintained as a single-owner business
-* Used to organize creative, technical, publishing, and documentation work
+* Used to organize creative, technical, publishing, software, and documentation work
 
-Additional collaborators, contractors, contributors, or employees may be added in the future if formally authorized.
+Additional collaborators, contributors, contractors, or employees may be added in the future if formally authorized.
 
 ⸻
 
 Repository Purpose
 
-This repository supports:
+This repository exists to support:
 
-* Version-controlled documentation
-* Public publication history
-* Long-term project maintenance
-* Creative and technical development
-* Business continuity
-* Knowledge preservation
+<table>
+  <tr>
+    <td>Version-controlled documentation</td>
+    <td>Public publication history</td>
+  </tr>
+  <tr>
+    <td>Long-term project maintenance</td>
+    <td>Creative and technical development</td>
+  </tr>
+  <tr>
+    <td>Business continuity</td>
+    <td>Knowledge preservation</td>
+  </tr>
+</table>
 
 No personal records, private credentials, confidential client information, regulated records, or sensitive operational materials are intentionally maintained within this repository.
 
@@ -75,12 +136,32 @@ No personal records, private credentials, confidential client information, regul
 
 Repository Map
 
-Path	Purpose
-/docs	Documentation
-/frameworks	Published systems and methodologies
-/architecture	Structural references
-/assets	Creative and project assets
-/software	Applications, tools, and code
+<table>
+  <tr>
+    <th>Path</th>
+    <th>Purpose</th>
+  </tr>
+  <tr>
+    <td><code>/docs</code></td>
+    <td>Documentation and public records</td>
+  </tr>
+  <tr>
+    <td><code>/frameworks</code></td>
+    <td>Published systems and methodologies</td>
+  </tr>
+  <tr>
+    <td><code>/architecture</code></td>
+    <td>Structural references and planning materials</td>
+  </tr>
+  <tr>
+    <td><code>/assets</code></td>
+    <td>Creative and project assets</td>
+  </tr>
+  <tr>
+    <td><code>/software</code></td>
+    <td>Applications, tools, and code</td>
+  </tr>
+</table>
 
 ⸻
 
@@ -90,12 +171,18 @@ Design Orchard LLC develops creative, technical, educational, and informational 
 
 This repository should not be interpreted as providing:
 
-* Medical advice
-* Legal advice
-* Financial advice
-* Licensed engineering services
-* Architectural services
-* Licensed trade services
+<table>
+  <tr>
+    <td>Medical advice</td>
+    <td>Legal advice</td>
+    <td>Financial advice</td>
+  </tr>
+  <tr>
+    <td>Licensed engineering services</td>
+    <td>Architectural services</td>
+    <td>Licensed trade services</td>
+  </tr>
+</table>
 
 Users remain responsible for their own decisions, implementations, compliance requirements, and use of materials.
 
@@ -125,16 +212,12 @@ Use of any mark does not imply endorsement, sponsorship, affiliation, employment
 
 ⸻
 
-Contact
+<div align="center">
+
+🌱 Design; From the Ground, Up.
 
 Joseph Kyle Marchand
 Owner / Operator
 Design Orchard LLC
-
-⸻
-
-<div align="center">
-
-🌱 Design; From the Ground, Up.
 
 </div>
