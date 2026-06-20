@@ -1,7 +1,12 @@
+<div align="center">
+
 🌴 Design Orchard LLC
 
 Creative Technology • Design • Publishing
-🌱 Design; From the Ground, Up.
+
+Design; From the Ground, Up.
+
+</div>
 
 ⸻
 
@@ -9,7 +14,14 @@ Overview
 
 Design Orchard LLC is a Florida-based creative technology company owned and operated by Joseph Kyle Marchand.
 
-The company currently functions as a single-owner creative and technical studio focused on design, documentation, digital media, software, publishing, and related creative technology work.
+The company currently functions as a single-owner creative and technical studio focused on:
+
+Area	Work
+🎨 Design	Graphic design, visual systems, brand assets
+💻 Software	Web development, app development, tools
+📚 Documentation	Knowledge systems, records, publishing frameworks
+📰 Media	Digital media, print media, publication support
+⚙️ Systems	Workflow architecture, automation, research and development
 
 This repository serves as a public record of ongoing business activity, creative development, technical development, and publication history.
 
@@ -17,14 +29,19 @@ This repository serves as a public record of ongoing business activity, creative
 
 What Design Orchard Does
 
-Design Orchard LLC may engage in activities including:
+Design Orchard LLC may engage in:
 
-Area	Examples
-Design	Graphic design, visual systems, identity development
-Media	Digital media, print media, publication support
-Software	Web development, app development, tools, automation
-Documentation	Knowledge systems, records, manuals, frameworks
-Research	Creative technology experiments, workflow architecture
+Graphic Design
+Digital Media
+Print Media
+Web Design
+Software Development
+Application Development
+Creative Publishing
+Documentation Systems
+Workflow Architecture
+Creative Technology Services
+Research and Development
 
 ⸻
 
@@ -37,33 +54,33 @@ Design Orchard LLC is currently:
 * Maintained as a single-owner business
 * Used to organize creative, technical, publishing, and documentation work
 
-Additional contributors, collaborators, contractors, or employees may be added in the future if formally authorized.
+Additional collaborators, contractors, contributors, or employees may be added in the future if formally authorized.
 
 ⸻
 
 Repository Purpose
 
-This repository exists to support:
+This repository supports:
 
-* Documented work
-* Version-controlled history
-* Active development
-* Long-term maintenance
-* Public publication
-* Knowledge preservation
+* Version-controlled documentation
+* Public publication history
+* Long-term project maintenance
+* Creative and technical development
 * Business continuity
+* Knowledge preservation
 
 No personal records, private credentials, confidential client information, regulated records, or sensitive operational materials are intentionally maintained within this repository.
 
 ⸻
 
-Repository Structure
+Repository Map
 
-/docs          Documentation
-/frameworks    Published systems and methodologies
-/architecture  Structural references
-/assets        Creative and project assets
-/software      Applications, tools, and code
+Path	Purpose
+/docs	Documentation
+/frameworks	Published systems and methodologies
+/architecture	Structural references
+/assets	Creative and project assets
+/software	Applications, tools, and code
 
 ⸻
 
@@ -92,12 +109,7 @@ Software, internal frameworks, operational methodologies, documentation systems,
 
 Public Creative Works
 
-Where specifically designated, public materials may be:
-
-* Shared
-* Adapted
-* Remixed
-* Redistributed
+Where specifically designated, public materials may be shared, adapted, remixed, or redistributed.
 
 Please review repository-specific licenses for project-level terms.
 
@@ -113,16 +125,16 @@ Use of any mark does not imply endorsement, sponsorship, affiliation, employment
 
 ⸻
 
-Canonical Notice
-
-This repository reflects the current public operational state of Design Orchard LLC and its associated projects, publications, systems, and creative works.
-
-Official notices, ownership information, licensing details, and operational records should be referenced through the authoritative records maintained by Design Orchard LLC.
-
-⸻
-
 Contact
 
 Joseph Kyle Marchand
 Owner / Operator
 Design Orchard LLC
+
+⸻
+
+<div align="center">
+
+🌱 Design; From the Ground, Up.
+
+</div>
