@@ -1,6 +1,6 @@
 <div align="center">
 
-🌴 Design Orchard LLC
+#🏝️ Design Orchard℠
 
 <h3>Creative Technology • Design • Publishing</h3>
 <p>
