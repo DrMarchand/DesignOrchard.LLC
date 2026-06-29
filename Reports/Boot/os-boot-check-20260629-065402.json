@@ -1,0 +1,127 @@
+{
+  "reportType": "OSBootCheck",
+  "timestamp": "2026-06-29T06:54:02Z",
+  "systemName": "DrMarchand\u2019s \u221e OS\u2122",
+  "bootStatus": "READY",
+  "checks": [
+    {
+      "checkId": "designorchard-root",
+      "displayText": "Loading DesignOrchard.LLC authority root",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/root-identity.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "native-home-registry",
+      "displayText": "Reading Native Home Registry",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/native-home-registry.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "company-registry",
+      "displayText": "Reading Companies Registry status",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Companies/company-registry-status.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "relationship-registry",
+      "displayText": "Reading Relationship Registry status",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Relationships/relationship-registry-status.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "ai-namespace-rules",
+      "displayText": "Checking AI provider namespace rules",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/AICompanies/provider-namespace-rules.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "node-agent-report",
+      "displayText": "Checking latest server node report",
+      "path": "/home/gobfnqsky763/drmarchands-os-node/Reports/NodeAgent",
+      "required": false,
+      "exists": true
+    },
+    {
+      "checkId": "copilot-soft-report",
+      "displayText": "Checking Microsoft Copilot soft bridge",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Reports/CopilotBridge",
+      "required": false,
+      "exists": true
+    },
+    {
+      "checkId": "os-entry-targets",
+      "displayText": "Loading OS division entry targets",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/os-entry-targets.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "startup-protocol-chain",
+      "displayText": "Checking OS startup protocol chain",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/Startup/startup-protocol-chain.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "big-brother-protocol",
+      "displayText": "Checking Big Brother startup protocol",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/BigBrother/protocol-identity.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "watchdog-protocol",
+      "displayText": "Checking Watchdog protocol",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/Watchdog/protocol-identity.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "lionheart-core",
+      "displayText": "Checking Lionheart cloned core",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/Lionheart/base-structure.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "phoenix-protocol",
+      "displayText": "Checking Phoenix Lab activation protocol",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/Phoenix/protocol-identity.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "titan-variant-rules",
+      "displayText": "Checking Titan variant rules",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/titan-variant-rules.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "titan-counterpart-rules",
+      "displayText": "Checking Titan counterpart clone rules",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Protocols/titan-counterpart-rules.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "domain-route-registry",
+      "displayText": "Checking domain and legal route registry",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/domain-route-registry.json",
+      "required": true,
+      "exists": true
+    }
+  ],
+  "missingRequired": [],
+  "missingOptional": [],
+  "successTarget": {
+    "type": "division-selection",
+    "displayText": "Opening DrMarchand\u2019s \u221e OS\u2122 division selector after Big Brother, Watchdog, Lionheart, and Titan protocol checks",
+    "path": "~/DesignOrchard.LLC/Public/os/index.html"
+  }
+}

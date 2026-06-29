@@ -1,0 +1,88 @@
+Identity Alias Proof: DO.DML.OS.1 v0.0.1
+Generated UTC: Mon Jun 29 19:37:15 UTC 2026
+Authority Root: Design Orchard LLC
+Display Identity: DrMarchand
+Filesystem User: gobfnqsky763
+Rule: DrMarchand is the operator/display identity. gobfnqsky763 remains the Linux/cPanel compatibility user.
+
+--- Identity Alias Registry ---
+{
+    "authorityRoot": "Design Orchard LLC",
+    "systemUser": "gobfnqsky763",
+    "operatorIdentity": "DrMarchand",
+    "displayIdentity": "DrMarchand",
+    "homePath": "/home/gobfnqsky763",
+    "identityRule": "The Linux/cPanel system user remains gobfnqsky763 for filesystem compatibility. DrMarchand is the operating, dashboard, registry, and public display identity.",
+    "doNotRenameWithoutHostSupport": true,
+    "safeReplacementPolicy": {
+        "replaceInPublicDisplay": true,
+        "replaceInDashboardLabels": true,
+        "replaceInReportsAsDisplayIdentity": true,
+        "replaceInFilesystemPaths": false,
+        "replaceInShellUsernames": false,
+        "replaceInOwnershipCommands": false
+    }
+}
+
+--- Updated Manifest ---
+{
+    "packageId": "DO.DML.OS.1",
+    "version": "0.0.1",
+    "state": "initializing",
+    "authorityRoot": "Design Orchard LLC",
+    "division": "DO.DML",
+    "system": "DrMarchand\u2019s \u221e OS\u2122 \u269b\ufe0e",
+    "runtimeRoot": "~/DrMarchands-OS",
+    "runtimeMarker": "~/DrMarchands-OS/\u221e OS\u2122.\u267e\ufe0f",
+    "previewUrl": "https://drmarchandslaboratory.com/os/_preview/v0.0.1-dashboard.html",
+    "sourceFiles": [
+        "dashboard-preview.html",
+        "DO.DML.OS.1__v0.0.1__dashboard-preview.html",
+        "SHA256SUMS.txt"
+    ],
+    "evidence": {
+        "releaseProof": "~/DesignOrchard.LLC/Reports/Release/DO.DML.OS.1__v0.0.1__release-proof-20260629-122744.txt",
+        "inventoryReport": "~/DesignOrchard.LLC/Reports/Inventory/os-inventory-20260629-122600.txt",
+        "routeStatus": "~/DesignOrchard.LLC/Registry/OS/os-dashboard-route-status.json",
+        "versioningDoctrine": "~/DesignOrchard.LLC/Registry/Versioning/autonomous-versioning-doctrine.json",
+        "operatorPulseId": "e72b9de5-820f-4ae2-9d0e-207e32789dac"
+    },
+    "hash": {
+        "algorithm": "sha256",
+        "value": "f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710"
+    },
+    "status": "checkpointed-after-identity-alias",
+    "identityAlias": "~/DesignOrchard.LLC/Registry/Identity/server-identity-alias.json"
+}
+
+--- Updated Hashes ---
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  dashboard-preview.html
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  DO.DML.OS.1__v0.0.1__dashboard-preview.html
+
+--- Dashboard Patch Proof ---
+/home/gobfnqsky763/public_html/os/_preview/v0.0.1-dashboard.html:358:          <b><span><i class="dot"></i>Operator Identity</span><span>DRM</span></b>
+/home/gobfnqsky763/public_html/os/_preview/v0.0.1-dashboard.html:359:          <small>Display identity: DrMarchand<br>System user preserved for server compatibility.</small>
+/home/gobfnqsky763/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/DO.DML.OS.1__v0.0.1__dashboard-preview.html:358:          <b><span><i class="dot"></i>Operator Identity</span><span>DRM</span></b>
+/home/gobfnqsky763/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/DO.DML.OS.1__v0.0.1__dashboard-preview.html:359:          <small>Display identity: DrMarchand<br>System user preserved for server compatibility.</small>
+/home/gobfnqsky763/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/dashboard-preview.html:358:          <b><span><i class="dot"></i>Operator Identity</span><span>DRM</span></b>
+/home/gobfnqsky763/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/dashboard-preview.html:359:          <small>Display identity: DrMarchand<br>System user preserved for server compatibility.</small>
+
+--- Boot Check ---
+BOOT STATUS: READY
+Report: /home/gobfnqsky763/DesignOrchard.LLC/Reports/Boot/os-boot-check-20260629-193715.json
+OK - Loading DesignOrchard.LLC authority root
+OK - Reading Native Home Registry
+OK - Reading Companies Registry status
+OK - Reading Relationship Registry status
+OK - Checking AI provider namespace rules
+OK - Checking latest server node report
+OK - Checking Microsoft Copilot soft bridge
+OK - Loading OS division entry targets
+OK - Checking OS startup protocol chain
+OK - Checking Big Brother startup protocol
+OK - Checking Watchdog protocol
+OK - Checking Lionheart cloned core
+OK - Checking Phoenix Lab activation protocol
+OK - Checking Titan variant rules
+OK - Checking Titan counterpart clone rules
+OK - Checking domain and legal route registry

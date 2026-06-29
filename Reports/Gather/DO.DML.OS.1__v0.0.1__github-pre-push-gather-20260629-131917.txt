@@ -1,0 +1,201 @@
+GitHub Pre-Push Gather Report: DO.DML.OS.1 v0.0.1
+Generated UTC: Mon Jun 29 20:19:17 UTC 2026
+Authority Root: Design Orchard LLC
+Display Identity: DrMarchand
+
+--- Manifest ---
+{
+    "packageId": "DO.DML.OS.1",
+    "version": "0.0.1",
+    "state": "initializing",
+    "authorityRoot": "Design Orchard LLC",
+    "division": "DO.DML",
+    "system": "DrMarchand\u2019s \u221e OS\u2122 \u269b\ufe0e",
+    "runtimeRoot": "~/DrMarchands-OS",
+    "runtimeMarker": "~/DrMarchands-OS/\u221e OS\u2122.\u267e\ufe0f",
+    "previewUrl": "https://drmarchandslaboratory.com/os/_preview/v0.0.1-dashboard.html",
+    "sourceFiles": [
+        "dashboard-preview.html",
+        "DO.DML.OS.1__v0.0.1__dashboard-preview.html",
+        "SHA256SUMS.txt"
+    ],
+    "evidence": {
+        "releaseProof": "~/DesignOrchard.LLC/Reports/Release/DO.DML.OS.1__v0.0.1__release-proof-20260629-122744.txt",
+        "inventoryReport": "~/DesignOrchard.LLC/Reports/Inventory/os-inventory-20260629-122600.txt",
+        "routeStatus": "~/DesignOrchard.LLC/Registry/OS/os-dashboard-route-status.json",
+        "versioningDoctrine": "~/DesignOrchard.LLC/Registry/Versioning/autonomous-versioning-doctrine.json",
+        "operatorPulseId": "e72b9de5-820f-4ae2-9d0e-207e32789dac"
+    },
+    "hash": {
+        "algorithm": "sha256",
+        "value": "f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710"
+    },
+    "status": "checkpointed-with-symbolic-aliases",
+    "identityAlias": "~/DesignOrchard.LLC/Registry/Identity/server-identity-alias.json",
+    "filenameAliases": {
+        "humanReadable": "dashboard-preview.html",
+        "exportSafe": "DO.DML.OS.1__v0.0.1__dashboard-preview.html",
+        "operatorSymbolic": "DO.DML.OS.1_\u2699\ufe0e_v0.0.1_\u2699\ufe0e_dashboard-preview.html",
+        "archiveSymbolic": "DO.DML.OS.1_\u221e_v0.0.1_\u221e_dashboard-preview.html"
+    },
+    "delimiterDoctrine": {
+        "__": "Export-safe fallback delimiter for strict systems, clients, Git, ZIP, and automation.",
+        "_\u2699\ufe0e_": "Internal operator and machine delimiter for active OS package files.",
+        "_\u221e_": "Archive, continuity, and eternal identity delimiter.",
+        "\u2638\ufe0e": "Runtime cycle marker for routes, loops, and operating motion.",
+        "\u269b\ufe0e": "Authority, core doctrine, immutable purpose, and Lab identity marker."
+    }
+}
+
+--- Hashes ---
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  dashboard-preview.html
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  DO.DML.OS.1__v0.0.1__dashboard-preview.html
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  DO.DML.OS.1_⚙︎_v0.0.1_⚙︎_dashboard-preview.html
+f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710  DO.DML.OS.1_∞_v0.0.1_∞_dashboard-preview.html
+5865821d1ba0b3c129db8a6e3ed810f8176e694d220db74f7bbd71f3eca688ff  manifest.json
+
+--- Versioning Doctrine ---
+{
+    "doctrine": "Autonomous File Versioning Doctrine",
+    "authorityRoot": "Design Orchard LLC",
+    "system": "DrMarchand\u2019s \u221e OS\u2122 \u269b\ufe0e",
+    "engine": "DrMarchand\u2019s N\u025buro-Forge Engine\u2122",
+    "knowledgeMaturityChain": [
+        "Thought",
+        "Idea",
+        "Concept",
+        "Theory",
+        "Principle",
+        "Law",
+        "Purpose",
+        "Immutable Purpose"
+    ],
+    "knowledgeMaturityDefinitions": {
+        "Thought": "Raw signal, observation, instinct, or spark.",
+        "Idea": "Thought with direction or possible use.",
+        "Concept": "Idea organized into a usable structure.",
+        "Theory": "Concept with explanation, assumptions, and test path.",
+        "Principle": "Theory proven useful across repeated cases.",
+        "Law": "Principle promoted into enforced system rule.",
+        "Purpose": "The reason the rule, object, or system exists.",
+        "Immutable Purpose": "The protected root reason that cannot be casually changed without formal review."
+    },
+    "versionRange": {
+        "minimum": "0.0.1",
+        "maximum": "9.9.9",
+        "rule": "Files may version autonomously within the bounded numeric range 0.0.1 through 9.9.9."
+    },
+    "coreException": {
+        "version": "0.0.0",
+        "meaning": "Core structure reference. Not a normal mutable file version. Always reviewed before new versions are made."
+    },
+    "dynamicRollover": {
+        "trigger": "Numeric version reaches 9.9.9 or uniqueness can no longer be guaranteed by numeric sequence alone.",
+        "rule": "After 9.9.9, versioning becomes dynamic and unique using explicit identity, timestamp, hash, or registry-certified release marker."
+    },
+    "fileIdentityPattern": {
+        "pattern": "COMPANY_ID.DIVISION_ID.PROJECT_OR_CLIENT_ID.FILE_SEQUENCE",
+        "examples": [
+            "DO.DML.OS.1",
+            "DO.DML.NFE.1",
+            "DO.DML.REGISTRY.1",
+            "DO.KEJ.CREATIVE-CANVAS.1",
+            "DO.KEJ.CLIENTID.1",
+            "DO.KEJ.ASSET.1"
+        ],
+        "rule": "The file identity starts with the root authority/company prefix, then division, then project/system/client, then sequence. The semantic version remains separate."
+    },
+    "divisionPrefixes": {
+        "DO.DML": {
+            "authorityRoot": "Design Orchard LLC",
+            "division": "DrMarchand\u2019s Lab\u269b\ufe0eratory\u2122",
+            "role": "Research, development, software, systems, OS, engine, registry, automation."
+        },
+        "DO.KEJ": {
+            "authorityRoot": "Design Orchard LLC",
+            "division": "KEJ Studio\u2122",
+            "role": "Creative production, design assets, client deliverables, Creative Canvas."
+        }
+    },
+    "physicalFilenamePattern": {
+        "pattern": "FILE_ID_\u2699\ufe0e_vMAJOR.MINOR.PATCH_\u2699\ufe0e_description.ext",
+        "example": "DO.DML.OS.1_\u2699\ufe0e_v0.0.1_\u2699\ufe0e_dashboard-preview.html",
+        "fallback": "DO.DML.OS.1__v0.0.1__dashboard-preview.html"
+    },
+    "semanticMeaning": {
+        "0.0.0": "Immutable core structure reference.",
+        "0.0.1": "Initializing state.",
+        "0.1.0": "Stable state.",
+        "1.0.0": "Formal release.",
+        "9.9.9": "Maximum bounded numeric version before dynamic unique rollover."
+    },
+    "immutablePurpose": {
+        "statement": "Every file must preserve authority, purpose, lineage, version, and relationship to the ecosystem without confusing identity with lifecycle state.",
+        "rule": "Identity explains what the file is and where it belongs. Version explains where the file is in its lifecycle. Purpose explains why the file exists. Immutable Purpose protects that reason from silent drift."
+    },
+    "publicSafetyRule": "Version identity may be public-safe. Private client, asset, source, Asana, Google Drive, Dropbox, and GoDaddy links must remain protected unless explicitly approved for publication.",
+    "symbolicDelimiterDoctrine": {
+        "chain": [
+            "_\u2699\ufe0e_",
+            "\u2638\ufe0e",
+            "\u269b\ufe0e"
+        ],
+        "definitions": {
+            "_\u2699\ufe0e_": "Machine and operator delimiter used for internal registry-grade filenames and workflow separation.",
+            "\u2638\ufe0e": "Runtime wheel marker used for route cycles, movement, process loops, and operating motion.",
+            "\u269b\ufe0e": "Atomic authority marker used for Lab identity, core doctrine, immutable purpose, and protected system structure."
+        },
+        "filenamePattern": "FILE_ID_\u2699\ufe0e_vMAJOR.MINOR.PATCH_\u2699\ufe0e_description.ext",
+        "example": "DO.DML.OS.1_\u2699\ufe0e_v0.0.1_\u2699\ufe0e_dashboard-preview.html",
+        "fallbackPattern": "FILE_ID__vMAJOR.MINOR.PATCH__description.ext",
+        "fallbackRule": "Use double underscore for export-safe, strict automation, external client delivery, or systems that may not preserve symbolic Unicode reliably."
+    },
+    "statusGlyphDoctrine": {
+        "OK": "\u2705",
+        "NOT_OK": "\u274c",
+        "rules": {
+            "OK": "Validated, passed, ready, available, or approved for the current layer.",
+            "NOT_OK": "Failed, missing, blocked, unavailable, unsafe, or not approved for the current layer."
+        },
+        "displayRule": "Use glyphs for operator readability, but preserve text labels for machine-readable status fields."
+    }
+}
+
+--- Identity Alias ---
+{
+    "authorityRoot": "Design Orchard LLC",
+    "systemUser": "gobfnqsky763",
+    "operatorIdentity": "DrMarchand",
+    "displayIdentity": "DrMarchand",
+    "homePath": "/home/gobfnqsky763",
+    "identityRule": "The Linux/cPanel system user remains gobfnqsky763 for filesystem compatibility. DrMarchand is the operating, dashboard, registry, and public display identity.",
+    "doNotRenameWithoutHostSupport": true,
+    "safeReplacementPolicy": {
+        "replaceInPublicDisplay": true,
+        "replaceInDashboardLabels": true,
+        "replaceInReportsAsDisplayIdentity": true,
+        "replaceInFilesystemPaths": false,
+        "replaceInShellUsernames": false,
+        "replaceInOwnershipCommands": false
+    }
+}
+
+--- Boot Check ---
+BOOT STATUS: READY
+Report: /home/gobfnqsky763/DesignOrchard.LLC/Reports/Boot/os-boot-check-20260629-201918.json
+OK - Loading DesignOrchard.LLC authority root
+OK - Reading Native Home Registry
+OK - Reading Companies Registry status
+OK - Reading Relationship Registry status
+OK - Checking AI provider namespace rules
+OK - Checking latest server node report
+OK - Checking Microsoft Copilot soft bridge
+OK - Loading OS division entry targets
+OK - Checking OS startup protocol chain
+OK - Checking Big Brother startup protocol
+OK - Checking Watchdog protocol
+OK - Checking Lionheart cloned core
+OK - Checking Phoenix Lab activation protocol
+OK - Checking Titan variant rules
+OK - Checking Titan counterpart clone rules
+OK - Checking domain and legal route registry

@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DrMarchand’s ∞ OS™ ⚛︎ v0.0.1 Dashboard Preview</title>
+<style>
+:root {
+  --bg:#020617;
+  --panel:rgba(15,23,42,.82);
+  --panel2:rgba(30,41,59,.64);
+  --line:rgba(148,163,184,.2);
+  --text:#e2e8f0;
+  --muted:#94a3b8;
+  --cyan:#22d3ee;
+  --green:#10b981;
+  --gold:#f59e0b;
+  --violet:#8b5cf6;
+  --pink:#d946ef;
+  --red:#fb7185;
+}
+* { box-sizing:border-box; }
+body {
+  margin:0;
+  min-height:100vh;
+  color:var(--text);
+  font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+  background:
+    radial-gradient(circle at 10% 10%,rgba(34,211,238,.16),transparent 28%),
+    radial-gradient(circle at 90% 16%,rgba(217,70,239,.13),transparent 30%),
+    radial-gradient(circle at 70% 90%,rgba(16,185,129,.12),transparent 34%),
+    linear-gradient(135deg,#020617,#07111f,#020617);
+  overflow-x:hidden;
+}
+body:before {
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  background-image:
+    linear-gradient(rgba(34,211,238,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,211,238,.04) 1px,transparent 1px);
+  background-size:44px 44px;
+  animation:grid 24s linear infinite;
+}
+@keyframes grid {
+  to { background-position:44px 44px; }
+}
+.shell {
+  position:relative;
+  z-index:1;
+  max-width:1500px;
+  margin:0 auto;
+  padding:18px;
+  display:grid;
+  gap:14px;
+}
+.topbar {
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,255,255,.06),rgba(255,255,255,.02)),var(--panel);
+  border-radius:18px;
+  padding:16px;
+  display:grid;
+  grid-template-columns:1.2fr auto;
+  gap:14px;
+  overflow:hidden;
+  position:relative;
+}
+.topbar:before {
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  top:0;
+  height:3px;
+  background:linear-gradient(90deg,var(--cyan),var(--green),var(--pink));
+  box-shadow:0 0 20px rgba(34,211,238,.6);
+}
+h1 {
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  font-size:clamp(28px,4vw,56px);
+  letter-spacing:-.07em;
+}
+.tagline {
+  color:var(--muted);
+  margin-top:5px;
+}
+.badges {
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-top:12px;
+}
+.badge {
+  border:1px solid rgba(34,211,238,.28);
+  background:rgba(8,145,178,.1);
+  color:var(--cyan);
+  border-radius:999px;
+  padding:6px 10px;
+  font-size:11px;
+}
+.timebox {
+  align-self:center;
+  border:1px solid var(--line);
+  background:rgba(2,6,23,.62);
+  border-radius:14px;
+  padding:12px 14px;
+  min-width:220px;
+}
+.timebox small { color:var(--muted); }
+.timebox b {
+  display:block;
+  margin-top:5px;
+  color:var(--cyan);
+  font-size:24px;
+  text-shadow:0 0 14px rgba(34,211,238,.7);
+}
+.dashboard {
+  display:grid;
+  grid-template-columns:320px 1fr 360px;
+  gap:14px;
+}
+.panel {
+  border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,255,255,.05),rgba(255,255,255,.018)),var(--panel);
+  border-radius:16px;
+  padding:14px;
+  min-height:120px;
+  position:relative;
+  overflow:hidden;
+  box-shadow:0 18px 42px rgba(0,0,0,.36);
+}
+.panel:after {
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(110deg,transparent 0 35%,rgba(34,211,238,.08) 48%,transparent 62% 100%);
+  transform:translateX(-120%);
+  animation:scan 8s ease-in-out infinite;
+}
+@keyframes scan {
+  0%,42% { transform:translateX(-120%); }
+  68%,100% { transform:translateX(120%); }
+}
+.title {
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+  border-bottom:1px solid rgba(148,163,184,.16);
+  padding-bottom:10px;
+  margin-bottom:12px;
+  color:var(--muted);
+  font-size:12px;
+  font-weight:900;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+.title span:last-child { color:var(--cyan); }
+.stack { display:grid; gap:10px; }
+.node {
+  border:1px solid rgba(148,163,184,.16);
+  background:rgba(2,6,23,.45);
+  border-radius:12px;
+  padding:11px;
+  position:relative;
+}
+.node b {
+  display:flex;
+  justify-content:space-between;
+  gap:10px;
+}
+.node small {
+  color:var(--muted);
+  display:block;
+  margin-top:5px;
+  line-height:1.45;
+}
+.dot {
+  width:9px;
+  height:9px;
+  border-radius:99px;
+  display:inline-block;
+  background:var(--green);
+  box-shadow:0 0 13px var(--green);
+  margin-right:6px;
+}
+.dot.wait { background:var(--gold); box-shadow:0 0 13px var(--gold); }
+.dot.lock { background:var(--violet); box-shadow:0 0 13px var(--violet); }
+.core {
+  min-height:520px;
+  display:grid;
+  grid-template-rows:auto 1fr auto;
+}
+.map {
+  position:relative;
+  min-height:360px;
+  border:1px solid rgba(148,163,184,.13);
+  border-radius:14px;
+  background:
+    radial-gradient(circle at 50% 50%,rgba(34,211,238,.12),transparent 28%),
+    rgba(2,6,23,.55);
+  overflow:hidden;
+}
+.map svg {
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+}
+.orb {
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:140px;
+  height:140px;
+  transform:translate(-50%,-50%);
+  border-radius:999px;
+  border:1px solid rgba(34,211,238,.6);
+  display:grid;
+  place-items:center;
+  background:
+    radial-gradient(circle,rgba(34,211,238,.24),rgba(15,23,42,.85) 62%,rgba(2,6,23,.96));
+  box-shadow:
+    0 0 30px rgba(34,211,238,.28),
+    inset 0 0 40px rgba(34,211,238,.18);
+  animation:orb 5s ease-in-out infinite;
+  text-align:center;
+}
+@keyframes orb {
+  50% { transform:translate(-50%,-50%) scale(1.045); }
+}
+.orb strong {
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  letter-spacing:-.05em;
+}
+.map-card {
+  position:absolute;
+  width:190px;
+  border:1px solid rgba(34,211,238,.22);
+  background:rgba(15,23,42,.8);
+  border-radius:13px;
+  padding:10px;
+  box-shadow:0 0 22px rgba(0,0,0,.28);
+}
+.map-card b { color:var(--text); }
+.map-card small { color:var(--muted); display:block; margin-top:5px; }
+.mc1 { left:28px; top:30px; }
+.mc2 { right:28px; top:30px; }
+.mc3 { left:28px; bottom:30px; }
+.mc4 { right:28px; bottom:30px; }
+.mc5 { left:50%; bottom:18px; transform:translateX(-50%); }
+.pulse-line {
+  stroke:rgba(34,211,238,.75);
+  stroke-width:2;
+  stroke-dasharray:8 10;
+  animation:dash 1.4s linear infinite;
+  filter:drop-shadow(0 0 6px rgba(34,211,238,.7));
+}
+@keyframes dash {
+  to { stroke-dashoffset:-36; }
+}
+.ops-grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:10px;
+  margin-top:12px;
+}
+.op {
+  border:1px solid rgba(148,163,184,.16);
+  background:rgba(2,6,23,.45);
+  border-radius:12px;
+  padding:10px;
+}
+.op small { color:var(--muted); display:block; }
+.op b { color:var(--cyan); font-size:18px; }
+.task {
+  border-left:3px solid var(--cyan);
+  padding:9px 10px;
+  background:rgba(2,6,23,.42);
+  border-radius:0 10px 10px 0;
+}
+.task b { font-size:13px; }
+.task small { color:var(--muted); display:block; margin-top:4px; }
+.linkgate {
+  color:var(--text);
+  text-decoration:none;
+  display:block;
+  border:1px solid rgba(148,163,184,.16);
+  background:rgba(2,6,23,.42);
+  border-radius:12px;
+  padding:11px;
+  transition:.18s ease;
+}
+.linkgate:hover {
+  transform:translateY(-2px);
+  border-color:rgba(34,211,238,.7);
+  box-shadow:0 0 24px rgba(34,211,238,.12);
+}
+.linkgate b { color:var(--cyan); }
+.linkgate small { display:block; color:var(--muted); margin-top:4px; }
+.console {
+  height:160px;
+  overflow:auto;
+  border:1px solid rgba(148,163,184,.14);
+  background:#020617;
+  border-radius:12px;
+  padding:10px;
+  color:var(--muted);
+  font-size:12px;
+}
+.log { border-bottom:1px solid rgba(30,41,59,.8); padding:4px 0; }
+.log b { color:var(--cyan); }
+.footer {
+  color:var(--muted);
+  text-align:center;
+  font-size:11px;
+}
+@media(max-width:1100px) {
+  .dashboard { grid-template-columns:1fr; }
+  .topbar { grid-template-columns:1fr; }
+}
+@media(max-width:700px) {
+  .ops-grid { grid-template-columns:1fr; }
+  .map-card { position:relative; left:auto; right:auto; top:auto; bottom:auto; transform:none; width:auto; margin:10px; }
+  .orb { position:relative; left:auto; top:auto; transform:none; margin:30px auto; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <header class="topbar">
+    <div>
+      <h1>DrMarchand’s ∞ OS™ ⚛︎</h1>
+      <div class="tagline">Operating dashboard preview · folder routing · task visibility · asset lanes · engine bridge</div>
+      <div class="badges">
+        <span class="badge">v0.0.1 Initializing</span>
+        <span class="badge">Authority: Design Orchard LLC</span>
+        <span class="badge">Lab Brand ≠ Phoenix</span>
+        <span class="badge">Engine Lives in Lab</span>
+        <span class="badge">Private Integrations Route Through App</span>
+      </div>
+    </div>
+    <div class="timebox">
+      <small>NFE Runtime Clock</small>
+      <b id="clock">00:00:00</b>
+      <small>Bridge target: app.drmarchandslaboratory.com</small>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <aside class="panel">
+      <div class="title"><span>Folder Connections</span><span>MAP</span></div>
+      <div class="stack">
+
+        <div class="node">
+          <b><span><i class="dot"></i>Operator Identity</span><span>DRM</span></b>
+          <small>Display identity: DrMarchand<br>System user preserved for server compatibility.</small>
+        </div>
+        <div class="node">
+          <b><span><i class="dot"></i>Runtime OS</span><span>LIVE</span></b>
+          <small>~/DrMarchands-OS<br>Kernel, event broker, startup shell.</small>
+        </div>
+        <div class="node">
+          <b><span><i class="dot"></i>Source Web Package</span><span>SRC</span></b>
+          <small>~/DesignOrchard.LLC/Public/os<br>Approved source package and version records.</small>
+        </div>
+        <div class="node">
+          <b><span><i class="dot wait"></i>Preview Folder</span><span>STAGE</span></b>
+          <small>~/public_html/os/_preview<br>Server visual previews before promotion.</small>
+        </div>
+        <div class="node">
+          <b><span><i class="dot"></i>Live Web Root</span><span>PUBLIC</span></b>
+          <small>~/public_html/os<br>Public startup shell for os.drmarchandslaboratory.com.</small>
+        </div>
+        <div class="node">
+          <b><span><i class="dot lock"></i>Private App</span><span>AUTH</span></b>
+          <small>app.drmarchandslaboratory.com<br>Future live integrations and protected data.</small>
+        </div>
+      </div>
+    </aside>
+
+    <section class="panel core">
+      <div class="title"><span>Operating System Connection Map</span><span>ACTIVE PREVIEW</span></div>
+      <div class="map">
+        <svg viewBox="0 0 1000 560" preserveAspectRatio="none">
+          <line class="pulse-line" x1="500" y1="280" x2="130" y2="90"/>
+          <line class="pulse-line" x1="500" y1="280" x2="870" y2="90"/>
+          <line class="pulse-line" x1="500" y1="280" x2="130" y2="470"/>
+          <line class="pulse-line" x1="500" y1="280" x2="870" y2="470"/>
+          <line class="pulse-line" x1="500" y1="280" x2="500" y2="500"/>
+        </svg>
+
+        <div class="orb">
+          <div>
+            <strong>∞ OS™</strong><br>
+            <small>Bridge Cockpit</small>
+          </div>
+        </div>
+
+        <div class="map-card mc1">
+          <b>Asana</b>
+          <small>Today, incomplete tasks, project lanes.</small>
+        </div>
+        <div class="map-card mc2">
+          <b>Google Drive</b>
+          <small>Core files, registry sheets, doctrine packets.</small>
+        </div>
+        <div class="map-card mc3">
+          <b>Dropbox</b>
+          <small>Active assets, images, exports, delivery lanes.</small>
+        </div>
+        <div class="map-card mc4">
+          <b>GoDaddy / Website</b>
+          <small>Published site assets and image routes.</small>
+        </div>
+        <div class="map-card mc5">
+          <b>Nɛuro-Forge Engine™</b>
+          <small>Runtime bridge, event broker, local engine sync.</small>
+        </div>
+      </div>
+
+      <div class="ops-grid">
+        <div class="op"><small>Runtime</small><b>ONLINE</b></div>
+        <div class="op"><small>Dashboard</small><b>PREVIEW</b></div>
+        <div class="op"><small>Integrations</small><b>PRIVATE APP</b></div>
+      </div>
+    </section>
+
+    <aside class="panel">
+      <div class="title"><span>Asana Today</span><span>TODO</span></div>
+      <div class="stack">
+        <div class="task">
+          <b>Create OS dashboard integration manifest</b>
+          <small>Define Asana, Drive, Dropbox, GoDaddy lanes.</small>
+        </div>
+        <div class="task">
+          <b>Confirm Google Drive website source folder</b>
+          <small>Do not duplicate existing Drive folders.</small>
+        </div>
+        <div class="task">
+          <b>Define Dropbox → website images route</b>
+          <small>Asset workspace to approved public image path.</small>
+        </div>
+        <div class="task">
+          <b>Keep private integrations behind app route</b>
+          <small>No private task or file links on public OS shell.</small>
+        </div>
+      </div>
+
+      <br>
+      <div class="title"><span>Project Queue</span><span>ACTIVE</span></div>
+      <div class="stack">
+        <a class="linkgate" href="../index.html">
+          <b>Public OS Startup Shell</b>
+          <small>Return to live public startup window.</small>
+        </a>
+        <a class="linkgate" href="https://app.drmarchandslaboratory.com/">
+          <b>Private App Dashboard</b>
+          <small>Protected future home for live integrations.</small>
+        </a>
+      </div>
+    </aside>
+  </main>
+
+  <section class="dashboard">
+    <div class="panel">
+      <div class="title"><span>Google Drive Core Files</span><span>PRIVATE</span></div>
+      <div class="stack">
+        <div class="node"><b>Registry Bridge Sheet</b><small>Existing Drive record for OS, Lab, Engine, and Big Brother.</small></div>
+        <div class="node"><b>Living Topology Map</b><small>Domain and relationship routing reference.</small></div>
+        <div class="node"><b>Portable Doctrine Packet</b><small>Local-first truth and proof-before-proclamation doctrine.</small></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="title"><span>Dropbox Asset Lane</span><span>ASSETS</span></div>
+      <div class="stack">
+        <div class="node"><b>Active Build Assets</b><small>Working images, mockups, exports, client-ready production assets.</small></div>
+        <div class="node"><b>Website Image Candidates</b><small>Images approved for upload or sync into website public image folders.</small></div>
+        <div class="node"><b>Delivery / Archive</b><small>Finals, exports, package drops, and release evidence.</small></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="title"><span>GoDaddy / Website Images</span><span>ROUTE</span></div>
+      <div class="stack">
+        <div class="node"><b>Website Images Folder</b><small>Public image route should be mapped, not guessed.</small></div>
+        <div class="node"><b>Approved Asset Sync</b><small>Only approved Dropbox assets move toward public website media.</small></div>
+        <div class="node"><b>Publishing Boundary</b><small>GoDaddy/admin access should stay private; public page shows only route status.</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="title"><span>Runtime Console</span><span>NFE</span></div>
+    <div class="console" id="console">
+      <div class="log"><b>[BOOT]</b> DrMarchand’s ∞ OS™ dashboard preview loaded.</div>
+      <div class="log"><b>[MAP]</b> Runtime, source, preview, and live roots separated.</div>
+      <div class="log"><b>[RULE]</b> Private Asana, Drive, Dropbox, and GoDaddy data must route through app dashboard.</div>
+      <div class="log"><b>[NEXT]</b> Connect live manifests from Nɛuro-Forge Engine™.</div>
+    </div>
+  </section>
+
+  <div class="footer">
+    DrMarchand’s ∞ OS™ ⚛︎ v0.0.1 Dashboard Preview · Authority Root: Design Orchard LLC · Engine: Nɛuro-Forge Engine™
+  </div>
+</div>
+
+<script>
+function tick(){
+  const d = new Date();
+  document.getElementById("clock").textContent = d.toLocaleTimeString();
+}
+setInterval(tick,1000);
+tick();
+
+const logs = [
+  ["SCAN","Folder connection graph stabilized."],
+  ["ASANA","Today lane waiting for private app bridge."],
+  ["DRIVE","Core file lane mapped as protected source."],
+  ["DROPBOX","Asset lane prepared for website-image route."],
+  ["GODADDY","Publishing boundary marked private."]
+];
+let i = 0;
+setInterval(() => {
+  const c = document.getElementById("console");
+  const row = logs[i % logs.length];
+  const div = document.createElement("div");
+  div.className = "log";
+  div.innerHTML = "<b>[" + row[0] + "]</b> " + row[1];
+  c.appendChild(div);
+  c.scrollTop = c.scrollHeight;
+  i++;
+}, 3800);
+</script>
+</body>
+</html>

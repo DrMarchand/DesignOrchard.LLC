@@ -1,0 +1,42 @@
+{
+  "packageId": "DO.DML.OS.1",
+  "version": "0.0.1",
+  "state": "initializing",
+  "authorityRoot": "Design Orchard LLC",
+  "division": "DO.DML",
+  "system": "DrMarchand\u2019s \u221e OS\u2122 \u269b\ufe0e",
+  "runtimeRoot": "~/DrMarchands-OS",
+  "runtimeMarker": "~/DrMarchands-OS/\u221e OS\u2122.\u267e\ufe0f",
+  "previewUrl": "https://drmarchandslaboratory.com/os/_preview/v0.0.1-dashboard.html",
+  "sourceFiles": [
+    "dashboard-preview.html",
+    "DO.DML.OS.1__v0.0.1__dashboard-preview.html",
+    "SHA256SUMS.txt"
+  ],
+  "evidence": {
+    "releaseProof": "~/DesignOrchard.LLC/Reports/Release/DO.DML.OS.1__v0.0.1__release-proof-20260629-122744.txt",
+    "inventoryReport": "~/DesignOrchard.LLC/Reports/Inventory/os-inventory-20260629-122600.txt",
+    "routeStatus": "~/DesignOrchard.LLC/Registry/OS/os-dashboard-route-status.json",
+    "versioningDoctrine": "~/DesignOrchard.LLC/Registry/Versioning/autonomous-versioning-doctrine.json",
+    "operatorPulseId": "e72b9de5-820f-4ae2-9d0e-207e32789dac"
+  },
+  "hash": {
+    "algorithm": "sha256",
+    "value": "f6279f48cfea06818220c767ff93a3982a429cc50ff76aca81d5e53b66980710"
+  },
+  "status": "checkpointed-with-symbolic-aliases",
+  "identityAlias": "~/DesignOrchard.LLC/Registry/Identity/server-identity-alias.json",
+  "filenameAliases": {
+    "humanReadable": "dashboard-preview.html",
+    "exportSafe": "DO.DML.OS.1__v0.0.1__dashboard-preview.html",
+    "operatorSymbolic": "DO.DML.OS.1_\u2699\ufe0e_v0.0.1_\u2699\ufe0e_dashboard-preview.html",
+    "archiveSymbolic": "DO.DML.OS.1_\u221e_v0.0.1_\u221e_dashboard-preview.html"
+  },
+  "delimiterDoctrine": {
+    "__": "Export-safe fallback delimiter for strict systems, clients, Git, ZIP, and automation.",
+    "_\u2699\ufe0e_": "Internal operator and machine delimiter for active OS package files.",
+    "_\u221e_": "Archive, continuity, and eternal identity delimiter.",
+    "\u2638\ufe0e": "Runtime cycle marker for routes, loops, and operating motion.",
+    "\u269b\ufe0e": "Authority, core doctrine, immutable purpose, and Lab identity marker."
+  }
+}

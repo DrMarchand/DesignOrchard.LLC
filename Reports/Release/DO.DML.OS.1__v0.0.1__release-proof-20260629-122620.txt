@@ -1,0 +1,41 @@
+Release Proof: DO.DML.OS.1 v0.0.1
+Generated UTC: Mon Jun 29 19:26:20 UTC 2026
+Authority Root: Design Orchard LLC
+Runtime Marker: ~/DrMarchands-OS/∞ OS™.♾️
+Preview URL: https://drmarchandslaboratory.com/os/_preview/v0.0.1-dashboard.html
+
+--- Dashboard Hash ---
+ea17a1502c2b1f7e87f2d20914f369bf4e6b9aaae3d1e521e5011d436b91922e  /home/gobfnqsky763/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/DO.DML.OS.1__v0.0.1__dashboard-preview.html
+
+--- Route Status ---
+{
+  "system": "DrMarchand\u2019s \u221e OS\u2122 \u269b\ufe0e",
+  "version": "0.0.1",
+  "state": "dashboard-preview-reachable",
+  "authorityRoot": "Design Orchard LLC",
+  "observedWorkingPreviewUrl": "https://drmarchandslaboratory.com/os/_preview/v0.0.1-dashboard.html",
+  "expectedSubdomainPreviewUrl": "https://os.drmarchandslaboratory.com/_preview/v0.0.1-dashboard.html",
+  "livePublicRoot": "~/public_html/os",
+  "sourcePackageCopy": "~/DesignOrchard.LLC/Public/os/_versions/v0.0.1-initializing/dashboard-preview.html",
+  "routeConclusion": "The v0.0.1 dashboard preview is reachable through the main laboratory domain /os path. Subdomain routing should be checked separately before declaring os.drmarchandslaboratory.com primary.",
+  "publicSafetyRule": "Private Asana, Google Drive, Dropbox, and GoDaddy links must remain behind app.drmarchandslaboratory.com or protected runtime routes."
+}
+--- Boot Check ---
+BOOT STATUS: READY
+Report: /home/gobfnqsky763/DesignOrchard.LLC/Reports/Boot/os-boot-check-20260629-192620.json
+OK - Loading DesignOrchard.LLC authority root
+OK - Reading Native Home Registry
+OK - Reading Companies Registry status
+OK - Reading Relationship Registry status
+OK - Checking AI provider namespace rules
+OK - Checking latest server node report
+OK - Checking Microsoft Copilot soft bridge
+OK - Loading OS division entry targets
+OK - Checking OS startup protocol chain
+OK - Checking Big Brother startup protocol
+OK - Checking Watchdog protocol
+OK - Checking Lionheart cloned core
+OK - Checking Phoenix Lab activation protocol
+OK - Checking Titan variant rules
+OK - Checking Titan counterpart clone rules
+OK - Checking domain and legal route registry

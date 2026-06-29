@@ -1,0 +1,64 @@
+{
+  "reportType": "OSBootCheck",
+  "timestamp": "2026-06-29T05:52:43Z",
+  "systemName": "DrMarchand\u2019s \u221e OS\u2122",
+  "bootStatus": "READY",
+  "checks": [
+    {
+      "checkId": "designorchard-root",
+      "displayText": "Loading DesignOrchard.LLC authority root",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/root-identity.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "native-home-registry",
+      "displayText": "Reading Native Home Registry",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/native-home-registry.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "company-registry",
+      "displayText": "Reading Companies Registry status",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Companies/company-registry-status.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "relationship-registry",
+      "displayText": "Reading Relationship Registry status",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/Relationships/relationship-registry-status.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "ai-namespace-rules",
+      "displayText": "Checking AI provider namespace rules",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Registry/AICompanies/provider-namespace-rules.json",
+      "required": true,
+      "exists": true
+    },
+    {
+      "checkId": "node-agent-report",
+      "displayText": "Checking latest server node report",
+      "path": "/home/gobfnqsky763/drmarchands-os-node/Reports/NodeAgent",
+      "required": false,
+      "exists": true
+    },
+    {
+      "checkId": "copilot-soft-report",
+      "displayText": "Checking Microsoft Copilot soft bridge",
+      "path": "/home/gobfnqsky763/DesignOrchard.LLC/Reports/CopilotBridge",
+      "required": false,
+      "exists": true
+    }
+  ],
+  "missingRequired": [],
+  "missingOptional": [],
+  "successTarget": {
+    "type": "dashboard",
+    "displayText": "Opening DrMarchand\u2019s \u221e OS\u2122",
+    "path": "~/DesignOrchard.LLC/Public/os/index.html"
+  }
+}

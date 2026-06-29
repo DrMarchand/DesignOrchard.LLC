@@ -1,0 +1,17 @@
+{
+  "authorityRoot": "Design Orchard LLC",
+  "systemUser": "gobfnqsky763",
+  "operatorIdentity": "DrMarchand",
+  "displayIdentity": "DrMarchand",
+  "homePath": "/home/gobfnqsky763",
+  "identityRule": "The Linux/cPanel system user remains gobfnqsky763 for filesystem compatibility. DrMarchand is the operating, dashboard, registry, and public display identity.",
+  "doNotRenameWithoutHostSupport": true,
+  "safeReplacementPolicy": {
+    "replaceInPublicDisplay": true,
+    "replaceInDashboardLabels": true,
+    "replaceInReportsAsDisplayIdentity": true,
+    "replaceInFilesystemPaths": false,
+    "replaceInShellUsernames": false,
+    "replaceInOwnershipCommands": false
+  }
+}
