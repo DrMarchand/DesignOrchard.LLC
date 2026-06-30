@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "reference-model-0.0.7-prep",
+  "authorityRoot": "Design Orchard LLC",
+  "system": "DrMarchand’s ∞ OS™",
+  "packageId": "DO.DML.OS.1",
+  "publisherFrame": {
+    "role": "publisher_research_analyst",
+    "boundary": "This is a published technical reference model. It defines terminology, validation behavior, and runtime interpretation. It does not claim legal, governmental, constitutional, or regulatory authority."
+  },
+  "modelName": "Path Gravity Containment Model",
+  "modelPurpose": "Define how DrMarchand’s ∞ OS™ distinguishes fact, fiction, realistic possibility, drift, and false authority before writing v0.0.7 path containment verification.",
+  "nextBigMove": "Write v0.0.7 as path containment verification, not merely line-or-curve verification.",
+  "corePrinciple": "Fact has anchor. Fiction has label. Drift has boundary. Uncontained drift has refusal.",
+  "stateInterpretation": {
+    "fact": "Anchored, traceable, bounded, testable, and classified.",
+    "realisticPossibility": "Not yet proven as fact, but carrying enough anchor behavior to remain under review.",
+    "fiction": "Unreal or creative material that remains safe when labeled and contained.",
+    "drift": "Movement away from anchor, lineage, boundary, or classification.",
+    "uncontainedDrift": "Drift that is allowed to influence structure without boundary, classification, or pairing.",
+    "falseAuthority": "Uncontained drift pretending to be fact or source authority."
+  },
+  "pathOutcomesFor0_0_7": [
+    "CONTROLLED_CURVE",
+    "CONTROLLED_LINE",
+    "SQUIGGLE_DRIFT",
+    "CONTAINED_DRIFT",
+    "UNCONTAINED_DRIFT",
+    "RESISTED_STOP",
+    "FORCED_REDIRECTION",
+    "REALISTIC_UNVERIFIED",
+    "ANCHORED_REAL",
+    "INCONCLUSIVE"
+  ],
+  "requiredPriorModels": [
+    "Gemini Replication Reference Model",
+    "0.0.6 Cycle Candidate Result",
+    "Marchand Molecular Services Cap Model",
+    "Anchored Bounded Pair Model",
+    "Orchard Island Pillar Model"
+  ],
+  "pairChain": {
+    "candidateVerifierPair": "GEMINI-PAIR-0.0.6-0.0.7-0001",
+    "confirmedCycleGenesisPair": "GENESIS-PAIR-0.0.8-0001",
+    "originContinuityPair": "GENESIS-PAIR-0.0.8-0.0.0-0001",
+    "genuineReturnRefinement": "0.0.9-genuine-return-refinement",
+    "stableReferenceTarget": "0.1.0-stable-reference-cycle"
+  },
+  "boundedNumberModel": {
+    "realNumberMeaning": "Real number means a value in ℝ, the mathematical real-number line. It does not mean merely a whole number or a number without decimals.",
+    "outerTerminalMarker": "9999",
+    "fullBoundedSaturationCap": "999.999",
+    "compactBoundedSaturationCap": "99.999",
+    "serviceCompletionCap": "786",
+    "efficientContainmentCap": "768",
+    "pairedDecimalReferences": [
+      "666.999",
+      "999.666"
+    ],
+    "rule": "A bounded maximum is not infinity. It is the highest allowed value inside a chosen model."
+  },
+  "validationRules": [
+    "Drift is allowed when contained.",
+    "Uncontained drift is refused.",
+    "A possible cycle is not a confirmed cycle until its path demonstrates bounded return.",
+    "Six begins the path; seven reads the path.",
+    "A pair does not need even inputs; a pair needs declared relationship and valid resolution.",
+    "Only what returns genuinely may be carried forward toward 0.1.0."
+  ],
+  "recommendedNextArtifacts": [
+    "marchand-molecular-cap-model.json",
+    "anchored-bounded-pair-model.json",
+    "cycle-pair-chain-model.json",
+    "v0.0.7-path-containment-verification.json"
+  ],
+  "status": "published_reference_model"
+}
