@@ -1,57 +1,51 @@
-# Design Orchard LLC Architecture
+# Design Orchard LLC - Public Architecture
 
-This repository is the durable source of truth for the Design Orchard ecosystem.
+> A release-safe map of the company and its operating lanes. Private infrastructure and implementation detail live elsewhere.
 
-## Purpose
+## Legal root
 
-Design Orchard LLC uses Asana for planning, drafts, operating rhythms, and business coordination. GitHub private repositories are the safety net for documentation, implementation, consistency checks, and internal review before anything is released publicly.
+**Design Orchard LLC** is the legal and operating company.
 
-## Core principle
+Its two primary operating lanes are siblings:
 
-Nothing becomes public until it has been planned in Asana and validated in the private GitHub layer.
-
-## Ecosystem map
-
-```text
-Design Orchard LLC
-  legal root, ownership, structure, assets, records
-
-Design Orchard
-  company brand and ecosystem identity
-
-Design Orchard service island
-  client/company service environment for company information, clients, assets, marks, copyrights, contracts, delivery, and records
-
-DrMarchand's Laboratory
-  research, development, and software division
-  primary domain: drmarchandslaboratory.com
-
-DrMarchand's Neuro-Forge Engine
-  core software engine for the Laboratory ecosystem
-
-Big Brother
-  planned open-source dashboard application built under the Laboratory ecosystem
-  not a brand
-
-KEJ Studio
-  creative services division
-
-DrMarchand's Creative Canvas
-  bridge, workspace, and dashboard to KEJ Studio services
-
-KEJ Studio productions
-  creative productions, published works, and studio assets
+```mermaid
+flowchart TD
+    DO[Design Orchard LLC]
+    DO --> LAB[DrMarchand’s Laboratory]
+    DO --> KEJ[KEJ Studio]
 ```
 
-## Operating layers
+Communication between the lanes does not merge their identities or transfer authority.
 
-| Layer | Role | Tooling |
-| --- | --- | --- |
-| Planning | Ideas, requirements, drafts, architecture, decisions | Asana |
-| Private validation | Internal source of truth, documentation, code, review, tests | GitHub Private |
-| Publication | Public documentation, open-source releases, community-facing work | GitHub Public |
-| Delivery | Websites, portals, services, client/customer access | DesignOrchardLLC.com, drmarchandslaboratory.com, drmarchands.com, kejstudio.com |
+## Laboratory systems
 
-## Golden rule
+DrMarchand’s Laboratory may use several distinct systems:
 
-Create value for the client or customer, deliver it reliably, support it responsibly, and improve the system every cycle.
+| System | Function |
+| --- | --- |
+| DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ | Bounded execution and orchestration |
+| DrMarchand’s OS™ | Presentation, navigation, routing, and lifecycle state |
+| 🗺️ DrMarchand’s ⚛︎ Atlas | Registered mapping and truth-resolution context |
+| 📚 DrMarchand’s ⚛︎ Library™ | Preservation, indexing, curation, and recall |
+
+These systems can connect without becoming the same thing. The OS is not the Engine. Atlas resolves registered relationships and state. The Library preserves durable records rather than temporary working state.
+
+## Creative lane
+
+**KEJ Studio** produces design, branding, media, and other creative work. **DrMarchand’s 🎨 Creative Canvas** is a working creative surface and may participate in an explicit handoff between creative and technical work.
+
+## Public / private boundary
+
+```text
+private working state
+-> validation
+-> redaction
+-> release-safe artifact
+-> public repository / website
+```
+
+Public GitHub should not expose credentials, private device identity, Vault topology, private storage locators, local production markers, or unnecessary internal routing detail.
+
+## Source-of-truth boundary
+
+Public GitHub is versioned engineering and documentation evidence. Private registries, runtime receipts, custody records, and authorized-human decisions determine the broader state they actually prove.
