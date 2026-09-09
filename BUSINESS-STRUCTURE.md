@@ -1,67 +1,32 @@
-# Business Structure
+# Design Orchard LLC - Business Structure
 
-Design Orchard LLC is the legal root of the ecosystem. It owns the company assets, domains, records, intellectual property, contracts, and operating structure.
+## Legal root
 
-## Core model
+**Design Orchard LLC** is the legal and operating company supporting the Design Orchard ecosystem.
 
-```text
-Design Orchard LLC
-  owns and supports the full ecosystem
+## Operating lanes
 
-Design Orchard
-  public company brand and ecosystem identity
+| Lane | Responsibility |
+| --- | --- |
+| DrMarchand’s Laboratory | Research, software, experimentation, automation, technical infrastructure, and system development |
+| KEJ Studio | Creative services, design, branding, media production, and visual assets |
 
-Design Orchard service island
-  service environment for company information, clients, assets, marks, copyrights, contracts, and records
+The two lanes are siblings. One does not become a child of the other merely because a project crosses between creative and technical work.
 
-DrMarchand's Laboratory
-  research, development, software, technical infrastructure
+## Shared company responsibilities
 
-KEJ Studio
-  creative services, design, branding, media production
-```
+Design Orchard LLC may maintain company-level records and operating structure for:
 
-## Operating principle
+- contracts and business administration;
+- approved asset and domain records;
+- financial and expense separation;
+- publication and release workflows;
+- company-level provenance and rights records.
 
-The parent company exists to support the divisions, not compete with them.
+## System boundary
 
-## Division responsibilities
+DrMarchand’s OS™ and DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ are distinct technical systems used around the Laboratory context. The OS presents and routes state; the Engine performs bounded execution and orchestration.
 
-### DrMarchand's Laboratory
+## Rights boundary
 
-Research, development, and software division.
-
-Responsible for:
-
-- Software development
-- Research and experimentation
-- Technical infrastructure
-- Websites and technical platforms
-- Open-source planning and validation
-- NFE and related applications
-
-### KEJ Studio
-
-Creative services division.
-
-Responsible for:
-
-- Branding
-- Graphic design
-- Creative direction
-- Media production
-- Visual identity systems
-- Client creative work
-- Published creative assets through KEJ Studio productions
-
-## Shared responsibilities
-
-Design Orchard LLC maintains the shared structure:
-
-- Asset ownership records
-- Domain map
-- Contract records
-- Client/customer records
-- Internal documentation
-- Financial separation and expense allocation
-- Publication pipeline
+Repository location, company operation, publishing activity, or use of a DBA does not by itself settle authorship, copyright ownership, trademark status, or licensing for every artifact. Work-specific records remain controlling.
