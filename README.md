@@ -1,45 +1,61 @@
 # Design Orchard LLC
 
-Design Orchard LLC is the legal and operating company behind the Design Orchard ecosystem.
+> The legal and operating root for a creative-technology ecosystem built around research, software, design, preservation, and deliberate release.
 
-**Focus:** creative technology, design, publishing, software, research, and practical systems work.
+**Public company surface** · **Evidence before claims** · **Private machinery stays private**
 
-## Operating areas
+## Company map
 
-- **DrMarchand’s Laboratory** — research, software, technical development, experimentation, and implementation.
-- **DrMarchand’s Library** — preservation, records, curation, and publication support.
-- **KEJ Studio** — creative production, design, media, and distribution.
+| Surface | Role |
+| --- | --- |
+| `Design Orchard LLC` | Legal and operating company |
+| `🌴 Design Orchard™` | Public ecosystem brand |
+| `🏝️ Design Orchard℠` | Service surface |
+| `DrMarchand’s Laboratory` | Research, software, experimentation, and technical operations |
+| `KEJ Studio` | Creative production, design, media, and client work |
 
-These areas may work together without becoming the same operational space.
+DrMarchand’s Laboratory and KEJ Studio are sibling operating lanes under Design Orchard LLC. Their tools and records may connect without collapsing into one namespace.
 
-## Internal systems
+## Operating model
 
-The Laboratory maintains internal systems used to organize, build, test, validate, route, and automate technical work. Internal machinery is not presented as a customer-facing product merely because it contributes to useful work.
+```mermaid
+flowchart LR
+    DO[Design Orchard LLC] --> LAB[DrMarchand’s Laboratory]
+    DO --> KEJ[KEJ Studio]
+    LAB --> ENG[Engine execution]
+    LAB --> OS[OS presentation and routing]
+    KEJ --> CANVAS[Creative production surfaces]
+```
 
-Third-party tools, including AI tools where appropriate, may be used during research or development. Their use does not redefine the identity of an internal system.
+The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes within delegated permission; **DrMarchand’s OS™** presents, navigates, and routes state.
 
-## Public scope
+## Public boundary
 
-This repository is a public company-level documentation surface. Public material should describe what exists, what is being developed, and what has been intentionally released without overstating capability or exposing unnecessary internal implementation details.
+This repository is the company-level public documentation surface. It should contain company structure, published relationships, and release-safe documentation - not credentials, private device identities, Vault topology, private storage locators, unpublished production markers, or working secrets.
 
-Public visibility does not by itself establish ownership, licensing, completion, or commercial availability.
+Internal operating doctrine belongs in private repositories or controlled storage. Public history may preserve older material as provenance, but current documentation must not present superseded internal detail as live architecture.
 
-## Naming rule
+## Repository guide
 
-Until further notice, `™` and `℠` are reserved only for functional folder names.
+- [`ARCHITECTURE.md`](ARCHITECTURE.md) - current public ecosystem relationships.
+- [`BUSINESS-STRUCTURE.md`](BUSINESS-STRUCTURE.md) - legal root and sibling operating lanes.
+- [`NOTICE`](NOTICE) - attribution and repository notices.
+- [`LICENSE`](LICENSE) - repository license terms.
 
-Public prose, repository documentation, website copy, titles, descriptions, and ordinary system references should use the unmarked name.
+## Release rule
 
-When a marked folder and an otherwise identical unmarked folder exist, they represent the same functional namespace. The unmarked folder is the preferred compacted home once object identity, contents, permissions, and references have been safely reconciled.
+```text
+WORK -> TEST -> VALIDATE -> REDACT -> PUBLISH
+```
 
-Repository names, domains, database names, paths, API routes, and other machine identifiers may retain compatibility spellings and must not be renamed merely to match prose.
+A file, schema, commit, screenshot, or checksum proves only what it directly demonstrates. Public visibility does not by itself establish deployment, completion, ownership, licensing, or commercial availability.
 
-## Working principle
+## Authority
 
-Build first. Prove what works. Describe it plainly. Let stronger claims follow evidence rather than lead it.
+**Legal and operating company:** Design Orchard LLC
+
+Work-specific authorship, copyright, licensing, and publication records control the rights attached to individual artifacts. Brand marks and machine identifiers remain separate from the legal entity name.
 
 ---
 
 **Design; From the Ground, Up.**
-
-Design Orchard LLC
