@@ -27,7 +27,7 @@ flowchart LR
     KEJ --> CANVAS[Creative production surfaces]
 ```
 
-The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes within delegated permission; **DrMarchand’s OS™** presents, navigates, and routes state.
+The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes within delegated permission; **DrMarchand’s ∞ OS™** presents, navigates, and routes state.
 
 ## Public boundary
 
