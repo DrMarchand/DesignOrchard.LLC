@@ -29,6 +29,16 @@ flowchart LR
 
 The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes within delegated permission; **DrMarchand’s ∞ OS™** presents, navigates, and routes state.
 
+## Atlas
+
+The canonical Design Orchard Atlas identity is `atlas.designorchard.net`. Its declared state source is `server.designorchard.net`.
+
+The relationship is explicit:
+
+`atlas.designorchard.net --reads_state_from--> server.designorchard.net`
+
+This declaration does not prove DNS, hosting, TLS, or runtime health. Atlas remains evidence-gated and does not replace Design Orchard LLC as authority. See [`ATLAS.md`](ATLAS.md) for the current compact instruction contract and state geometry.
+
 ## Public boundary
 
 This repository is the company-level public documentation surface. It should contain company structure, published relationships, and release-safe documentation - not credentials, private device identities, Vault topology, private storage locators, unpublished production markers, or working secrets.
@@ -37,6 +47,7 @@ Internal operating doctrine belongs in private repositories or controlled storag
 
 ## Repository guide
 
+- [`ATLAS.md`](ATLAS.md) - current Atlas identity, domain, state, geometry, and operating laws.
 - [`ARCHITECTURE.md`](ARCHITECTURE.md) - current public ecosystem relationships.
 - [`BUSINESS-STRUCTURE.md`](BUSINESS-STRUCTURE.md) - legal root and sibling operating lanes.
 - [`NOTICE`](NOTICE) - attribution and repository notices.
