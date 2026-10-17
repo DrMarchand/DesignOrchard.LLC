@@ -42,7 +42,7 @@ Search durable evidence for:
 
 A different name is not sufficient evidence of novelty. Creation may proceed when discovery establishes a meaningful distinction or deliberate new branch.
 
-System memory may include **📚 DrMarchand’s ⚛︎ Library™**, Bookshelf structures, databases, files, repositories, infrastructure records, scripts, APIs, timestamps, registries, lineage records, source artifacts, checksums, execution evidence, and Atlas relationships.
+System memory may include **📚 DrMarchand’s ⚛︎ Library**, Bookshelf structures, databases, files, repositories, infrastructure records, scripts, APIs, timestamps, registries, lineage records, source artifacts, checksums, execution evidence, and Atlas relationships.
 
 ```text
 MEMORY =
@@ -187,7 +187,7 @@ valid proof ≠ automatic authorization
 
 ### A. 🗄️ Custody
 
-**📚 DrMarchand’s ⚛︎ Library™** provides durable custody and discovery.
+**📚 DrMarchand’s ⚛︎ Library** provides durable custody and discovery.
 
 Custody may establish retention, integrity preservation, historical availability, discoverability, and retrieval. It does not establish ownership, authorship, execution, mutation, deployment, publication, disclosure, transfer, or external-exposure authority.
 

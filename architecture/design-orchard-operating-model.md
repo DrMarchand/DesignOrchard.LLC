@@ -26,14 +26,14 @@ Design Orchard LLC
 ├── Operating Infrastructure
 ├── Brands
 │   ├── DrMarchand’s Lab⚛︎ratory™
-│   │   ├── DrMarchand’s ⚛︎ Library™
-│   │   └── DrMarchand’s ∞ OS™
-│   │       ├── ☸︎ Nɛuro-Forge Engine™
-│   │       ├── DrMarchand’s ∞ OS™ ⚛︎ Phoenix
-│   │       ├── DrMarchand’s ∞ OS™ ⚛︎ Lionheart
+│   │   ├── DrMarchand’s ⚛︎ Library
+│   │   └── DrMarchand’s OS™
+│   │       ├── ☸︎ Nɛuro-Forge Engine
+│   │       ├── DrMarchand’s OS™ ⚛︎ Phoenix
+│   │       ├── DrMarchand’s OS™ ⚛︎ Lionheart
 │   │       └── 🪬 Big Brother
 │   │
-│   └── KEJ Studio™
+│   └── KEJ Studio℠
 │       └── 🎨 Creative Canvas
 │
 ├── Knowledge
@@ -50,13 +50,13 @@ Design Orchard LLC
 | Design Orchard LLC | Legal and business owner |
 | Design Orchard℠ | Public umbrella identity |
 | DrMarchand’s Lab⚛︎ratory™ | Software, systems, research, laboratory brand |
-| DrMarchand’s ⚛︎ Library™ | Canonical memory, knowledge, references, and long-term records |
-| DrMarchand’s ∞ OS™ | Operating environment and system coordination layer |
-| ☸︎ Nɛuro-Forge Engine™ | Production and synthesis engine |
-| DrMarchand’s ∞ OS™ ⚛︎ Phoenix | GitHub / connector diagnostic and recovery system |
-| DrMarchand’s ∞ OS™ ⚛︎ Lionheart | Verification and diagnostic support system |
+| DrMarchand’s ⚛︎ Library | Canonical memory, knowledge, references, and long-term records |
+| DrMarchand’s OS™ | Operating environment and system coordination layer |
+| ☸︎ Nɛuro-Forge Engine | Production and synthesis engine |
+| DrMarchand’s OS™ ⚛︎ Phoenix | GitHub / connector diagnostic and recovery system |
+| DrMarchand’s OS™ ⚛︎ Lionheart | Verification and diagnostic support system |
 | 🪬 Big Brother | Whole-system observation and operations layer |
-| KEJ Studio™ | Creative brand |
+| KEJ Studio℠ | Creative brand |
 | 🎨 Creative Canvas | KEJ Studio creative working space |
 
 ## Platform Roles

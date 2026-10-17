@@ -36,8 +36,8 @@ Do not register unclear objects automatically. Objects should be classified, rev
 
 ## Known classification notes
 
-- Neuro-Forge Engine™ is the internal engine / routing layer.
-- Atlas is the intelligence layer routed by Neuro-Forge Engine™.
+- Neuro-Forge Engine is the internal engine / routing layer.
+- Atlas is the intelligence layer routed by Neuro-Forge Engine.
 - Big Brother / DrMarchand is the private command, observation, audit, reporting, registry review, certification review, and device visibility layer.
 - DrMarchand's Creative Canvas is a website and internal employee dashboard for KEJ Studio employees.
 - The Creative Guild is a Discord bridge only.

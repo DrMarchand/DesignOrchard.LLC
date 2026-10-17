@@ -35,7 +35,7 @@ Echo should not handle:
 - asset approval
 - registry certification
 - public website behavior
-- Neuro-Forge Engine™ control beyond reporting
+- Neuro-Forge Engine control beyond reporting
 
 ## Relationship
 

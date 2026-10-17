@@ -1,13 +1,13 @@
 # Object State Registry Mirror
 
 **Authority:** Design Orchard LLC  
-**System:** DrMarchand’s ∞ OS™  
+**System:** DrMarchand’s OS™  
 **Mirror State:** Synced  
 **Effective Date:** 2026-06-20
 
 ## Purpose
 
-This file defines the public-safe object state language used by DrMarchand’s ∞ OS™ to describe synchronization state across connected layers.
+This file defines the public-safe object state language used by DrMarchand’s OS™ to describe synchronization state across connected layers.
 
 GitHub is not the canonical registry. This file mirrors approved state definitions for traceability.
 

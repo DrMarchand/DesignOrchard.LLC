@@ -4,7 +4,7 @@ Date: 2026-06-23
 
 ## Definition
 
-Dynamic Structure is the live folder/system behavior layer of DrMarchand's Neuro-Forge Engine™ structure.
+Dynamic Structure is the live folder/system behavior layer of DrMarchand's Neuro-Forge Engine structure.
 
 It describes active routing, structure testing, promotion logic, and gap detection.
 
@@ -38,3 +38,5 @@ The system is dynamic and operating, not a static canon layer. The folder struct
 ├── 06 Dynamic Structure
 └── 07 Reports
 ```
+
+Display clarification (2026-10-17): the folder examples above are literal historical coordinates, not current brand claims. The overall software name is DrMarchand’s OS™; ∞ OS is internal, and the Engine carries neither ™ nor ℠.

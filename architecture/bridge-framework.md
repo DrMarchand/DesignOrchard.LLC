@@ -1,13 +1,13 @@
 # Bridge Framework
 
 **Authority:** Design Orchard LLC  
-**System:** DrMarchand’s ∞ OS™  
+**System:** DrMarchand’s OS™  
 **Mirror State:** Synced  
 **Effective Date:** 2026-06-20
 
 ## Purpose
 
-The Bridge Framework defines how DrMarchand’s ∞ OS™ reconciles movement between registry, canon, mirror, execution, structure, operations, and creation layers.
+The Bridge Framework defines how DrMarchand’s OS™ reconciles movement between registry, canon, mirror, execution, structure, operations, and creation layers.
 
 ## Bridge Map
 
@@ -32,11 +32,11 @@ Master reconciliation layer for cross-system synchronization, global drift, and 
 
 ### DML-BRIDGE
 
-Connects DrMarchand’s Lab⚛︎ratory™, DrMarchand’s ⚛︎ Library™, and DrMarchand’s ∞ OS™.
+Connects DrMarchand’s Lab⚛︎ratory™, DrMarchand’s ⚛︎ Library, and DrMarchand’s OS™.
 
 ### NFE-BRIDGE
 
-Ignition bridge. Connects to and starts DrMarchand’s ∞ OS™ and activates the operating environment.
+Ignition bridge. Connects to and starts DrMarchand’s OS™ and activates the operating environment.
 
 ### OS-BRIDGE
 

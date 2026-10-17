@@ -23,10 +23,10 @@ DrMarchand’s Laboratory may use several distinct systems:
 
 | System | Function |
 | --- | --- |
-| DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ | Bounded execution and orchestration |
+| DrMarchand’s ⚙︎ Nɛuro-Forge Engine | Bounded execution and orchestration |
 | DrMarchand’s OS™ | Presentation, navigation, routing, and lifecycle state |
 | 🗺️ DrMarchand’s ⚛︎ Atlas | Registered mapping and truth-resolution context |
-| 📚 DrMarchand’s ⚛︎ Library™ | Preservation, indexing, curation, and recall |
+| 📚 DrMarchand’s ⚛︎ Library | Preservation, indexing, curation, and recall |
 
 These systems can connect without becoming the same thing. The OS is not the Engine. Atlas resolves registered relationships and state. The Library preserves durable records rather than temporary working state.
 

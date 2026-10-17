@@ -1,4 +1,4 @@
-# DrMarchand’s ∞ OS™ — Foundation Mirror
+# DrMarchand’s OS™ — Foundation Mirror
 
 **Effective Date:** 2026-06-20  
 **Owning Authority:** Design Orchard LLC  
@@ -7,7 +7,7 @@
 
 ## Purpose
 
-DrMarchand’s ∞ OS™ is a living operating architecture owned by Design Orchard LLC.
+DrMarchand’s OS™ is a living operating architecture owned by Design Orchard LLC.
 
 The objective of the system is not merely to complete isolated tasks. The objective is to strengthen, document, reconcile, and evolve the operating system across connected platforms while preserving traceability.
 
@@ -19,15 +19,15 @@ Design Orchard LLC
 |-- Design Orchard℠
 |-- DrMarchand’s Lab⚛︎ratory™
 |   |
-|   |-- DrMarchand’s ⚛︎ Library™
-|   |-- DrMarchand’s ∞ OS™
+|   |-- DrMarchand’s ⚛︎ Library
+|   |-- DrMarchand’s OS™
 |       |
-|       |-- Nɛuro-Forge Engine™
-|       |-- DrMarchand’s ∞ OS™ ⚛︎ Phoenix
-|       |-- DrMarchand’s ∞ OS™ ⚛︎ Lionheart
+|       |-- Nɛuro-Forge Engine
+|       |-- DrMarchand’s OS™ ⚛︎ Phoenix
+|       |-- DrMarchand’s OS™ ⚛︎ Lionheart
 |       |-- Big Brother
 |
-|-- KEJ Studio™
+|-- KEJ Studio℠
     |
     |-- Creative Canvas
 ```
@@ -70,7 +70,7 @@ If one system changes and another does not, a documented explanation must exist.
 | Phoenix | Detect change, diagnose connector state, classify failures, select recovery path |
 | Lionheart | Verify state, validate synchronization, confirm integrity |
 | Big Brother | Observe, report, monitor drift |
-| Nɛuro-Forge Engine™ | Reconcile, synthesize, produce outputs, transform information into action |
+| Nɛuro-Forge Engine | Reconcile, synthesize, produce outputs, transform information into action |
 
 ## Guiding Rule
 

@@ -21,14 +21,14 @@ If a new subsystem cannot be explained with one primary responsibility, it may b
 | 🌴 Design Orchard™ | Represent | Public brand, product stamp, merchandise, receipts, and public-facing artifacts. |
 | 🎥 KEJ Studio℠ | Serve | Service provider for digital assets, design, branding, and creative work. |
 | 🔬 DrMarchand's Lab⚛︎ratory™ | Research / Build | Product, software, research, framework, validation, and production division. |
-| ⚙︎ DrMarchand's Nɛuro-Forge Engine™ | Execute | Main engine software for runtime, orchestration, automation, capability resolution, and execution. |
-| ∞ OS™ | Govern | Governing reference model inside the Nɛuro-Forge Engine; defines rules, semantics, state, transitions, dependencies, and capability policy. |
+| ⚙︎ DrMarchand's Nɛuro-Forge Engine | Execute | Main engine software for runtime, orchestration, automation, capability resolution, and execution. |
+| ∞ OS | Govern | Governing reference model inside the Nɛuro-Forge Engine; defines rules, semantics, state, transitions, dependencies, and capability policy. |
 | 🪬 Big Brother | Observe / Report | Observation, correlation, telemetry, drift reporting, and registry-to-library reporting path. |
 | 🧾 Registry | Certify | Canonical identity, provenance, authority, certification, and publication status. |
-| 📚 DrMarchand's ⚛︎ Library™ | Preserve / Organize / Reference | Institutional knowledge, documentation, journals, specifications, and continuity layer. |
+| 📚 DrMarchand's ⚛︎ Library | Preserve / Organize / Reference | Institutional knowledge, documentation, journals, specifications, and continuity layer. |
 | 📖 BOOKSHELF | Store | Durable knowledge store held by the Library. |
 | 🗺 Atlas™ | Map | Relationships, dependencies, topology, location, and navigation. |
-| 🦁 Lionheart™ | Validate / Protect | Evidence validation, guardrails, policy enforcement, permission drift, and protection logic. |
+| 🦁 Lionheart | Validate / Protect | Evidence validation, guardrails, policy enforcement, permission drift, and protection logic. |
 
 ## Core Invariant
 
@@ -83,10 +83,10 @@ The Registry certifies. Big Brother observes and reports. The Library preserves,
 🔬 DrMarchand's Lab⚛︎ratory™
       │
       ▼
-⚙︎ DrMarchand's Nɛuro-Forge Engine™
+⚙︎ DrMarchand's Nɛuro-Forge Engine
       │
       ▼
-∞ OS™
+∞ OS
 ```
 
 The Laboratory contains the Nɛuro-Forge Engine. The Nɛuro-Forge Engine runs the ∞ OS. The ∞ OS governs rules inside the engine.

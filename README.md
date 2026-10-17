@@ -27,7 +27,7 @@ flowchart LR
     KEJ --> CANVAS[Creative production surfaces]
 ```
 
-The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine™** executes within delegated permission; **DrMarchand’s ∞ OS™** presents, navigates, and routes state.
+The execution system and the presentation system are deliberately separate: **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** executes within delegated permission; **DrMarchand’s OS™** presents, navigates, and routes state.
 
 ## Public boundary
 
@@ -59,3 +59,7 @@ Work-specific authorship, copyright, licensing, and publication records control 
 ---
 
 **Design; From the Ground, Up.**
+
+## Brand display
+
+Use [BRAND_DISPLAY_STANDARD.md](BRAND_DISPLAY_STANDARD.md) for current ™ / ℠ placement, legal-name formatting, and internal-system naming.

@@ -25,7 +25,7 @@ Design Orchard LLC may maintain company-level records and operating structure fo
 
 ## System boundary
 
-DrMarchand’s OS™ and DrMarchand’s ⚙︎ Nɛuro-Forge Engine™ are distinct technical systems used around the Laboratory context. The OS presents and routes state; the Engine performs bounded execution and orchestration.
+DrMarchand’s OS™ and DrMarchand’s ⚙︎ Nɛuro-Forge Engine are distinct technical systems used around the Laboratory context. The OS presents and routes state; the Engine performs bounded execution and orchestration.
 
 ## Rights boundary
 
