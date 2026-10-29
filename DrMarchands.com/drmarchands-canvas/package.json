@@ -1,0 +1,10 @@
+{
+  "name": "drmarchands-canvas",
+  "version": "0.2.0-dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/canvas.js && node --check src/ecosystem.js && node --check src/home.js && node --check tests/canvas.test.js && node --check tests/ecosystem.test.js"
+  }
+}
