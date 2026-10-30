@@ -1,6 +1,11 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { ConcreteDependencyRegistry, EcosystemResolver, validateEcosystemObject } from "../src/ecosystem.js";
+import {
+  ConcreteDependencyRegistry,
+  ConcreteLocationRegistry,
+  EcosystemResolver,
+  validateEcosystemObject
+} from "../src/ecosystem.js";
 
 test("same concrete dependency is reused across different control surfaces", () => {
   const dependencies = new ConcreteDependencyRegistry();
@@ -69,4 +74,68 @@ test("duplicate concrete dependency registration is rejected", () => {
   const dependencies = new ConcreteDependencyRegistry();
   dependencies.register({ id: "dependency:x" });
   assert.throws(() => dependencies.register({ id: "dependency:x" }), /already registered/);
+});
+
+test("location changes without changing object identity", () => {
+  const locations = new ConcreteLocationRegistry();
+  locations.register({
+    objectId: "canvas:home",
+    provider: "google-drive",
+    coordinate: "drive-folder:old-home",
+    parentId: "laboratory:old"
+  });
+
+  const resolver = new EcosystemResolver({ locations });
+  const before = resolver.resolve({ id: "canvas:home", type: "ui-bootstrap" });
+
+  locations.relocate("canvas:home", {
+    provider: "google-drive",
+    coordinate: "drive-folder:new-home",
+    parentId: "laboratory:current"
+  });
+
+  const after = resolver.resolve({ id: "canvas:home", type: "ui-bootstrap" });
+
+  assert.equal(before.object.id, "canvas:home");
+  assert.equal(after.object.id, "canvas:home");
+  assert.equal(before.location.coordinate, "drive-folder:old-home");
+  assert.equal(after.location.coordinate, "drive-folder:new-home");
+  assert.equal(after.location.revision, 1);
+});
+
+test("relocation preserves prior coordinates as history", () => {
+  const locations = new ConcreteLocationRegistry();
+  locations.register({
+    objectId: "engine:home",
+    provider: "google-drive",
+    coordinate: "drive-folder:a"
+  });
+
+  locations.relocate("engine:home", {
+    provider: "google-drive",
+    coordinate: "drive-folder:b"
+  });
+  locations.relocate("engine:home", {
+    provider: "google-drive",
+    coordinate: "drive-folder:c"
+  });
+
+  assert.deepEqual(
+    locations.history("engine:home").map((location) => location.coordinate),
+    ["drive-folder:a", "drive-folder:b"]
+  );
+  assert.equal(locations.get("engine:home").coordinate, "drive-folder:c");
+  assert.equal(locations.get("engine:home").revision, 2);
+});
+
+test("relocation rejects unknown objects instead of creating them", () => {
+  const locations = new ConcreteLocationRegistry();
+  assert.throws(
+    () => locations.relocate("missing:object", {
+      provider: "google-drive",
+      coordinate: "drive-folder:new"
+    }),
+    /No registered location/
+  );
+  assert.equal(locations.has("missing:object"), false);
 });
