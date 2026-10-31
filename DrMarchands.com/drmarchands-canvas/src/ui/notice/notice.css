@@ -1,0 +1,44 @@
+.canvas-notice {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: .75rem;
+
+    padding: 1rem;
+
+    border: 1px solid var(--canvas-border, rgba(255,255,255,.14));
+    border-radius: 14px;
+
+    background: var(--canvas-surface-bg, #14181d);
+    color: var(--canvas-text, #f4f6f8);
+}
+
+.canvas-notice__icon {
+    line-height: 1.4;
+}
+
+.canvas-notice__content {
+    min-width: 0;
+}
+
+.canvas-notice__title {
+    margin: 0;
+    font-weight: 800;
+}
+
+.canvas-notice__message {
+    margin: .3rem 0 0;
+    color: var(--canvas-muted, #9ca6b0);
+    line-height: 1.5;
+}
+
+.canvas-notice--success {
+    border-color: rgba(103, 214, 148, .4);
+}
+
+.canvas-notice--warning {
+    border-color: rgba(247, 198, 90, .45);
+}
+
+.canvas-notice--danger {
+    border-color: rgba(245, 109, 109, .45);
+}

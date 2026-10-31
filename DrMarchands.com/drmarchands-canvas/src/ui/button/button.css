@@ -1,0 +1,58 @@
+.canvas-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+
+    min-height: 42px;
+    padding: .7rem 1rem;
+
+    border: 1px solid var(--canvas-border, rgba(255,255,255,.14));
+    border-radius: 999px;
+
+    background: var(--canvas-surface-bg, #14181d);
+    color: var(--canvas-text, #f4f6f8);
+
+    font: inherit;
+    font-weight: 700;
+    line-height: 1;
+
+    text-decoration: none;
+    cursor: pointer;
+
+    transition:
+        transform 120ms ease,
+        background 120ms ease,
+        border-color 120ms ease,
+        opacity 120ms ease;
+}
+
+.canvas-button:hover {
+    transform: translateY(-1px);
+}
+
+.canvas-button:active {
+    transform: translateY(0);
+}
+
+.canvas-button:focus-visible {
+    outline: 2px solid var(--canvas-accent, #fff);
+    outline-offset: 3px;
+}
+
+.canvas-button[disabled],
+.canvas-button[aria-disabled="true"] {
+    opacity: .45;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.canvas-button--primary {
+    background: var(--canvas-accent, #fff);
+    color: var(--canvas-page-bg, #0b0d10);
+    border-color: transparent;
+}
+
+.canvas-button--quiet {
+    background: transparent;
+}
