@@ -5,6 +5,6 @@
   "type": "module",
   "scripts": {
     "test": "node --test",
-    "check": "node --check src/canvas.js && node --check src/ecosystem.js && node --check src/logic.js && node --check src/space.js && node --check src/composition.js && node --check src/home.js && node --check tests/canvas.test.js && node --check tests/ecosystem.test.js && node --check tests/logic.test.js && node --check tests/space.test.js && node --check tests/composition.test.js"
+    "check": "node --check src/canvas.js && node --check src/ecosystem.js && node --check src/logic.js && node --check src/space.js && node --check src/composition.js && node --check src/home.js && node --check src/identity.js && node --check src/bootstrap/bootstrap.js && node --check src/bootstrap/adapters/identity.js && node --check tests/canvas.test.js && node --check tests/ecosystem.test.js && node --check tests/logic.test.js && node --check tests/space.test.js && node --check tests/composition.test.js && node --check tests/identity.test.js && node --check tests/identity-adapter.test.js"
   }
 }

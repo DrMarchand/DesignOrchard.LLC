@@ -11,6 +11,10 @@ import {
     resolveConsumer
 } from './context.js';
 
+import {
+    readIdentityContext
+} from '../identity.js';
+
 export const BOOTSTRAP_VERSION = '0.1.0-dev';
 
 export const BOOTSTRAP_IDENTITY =
@@ -94,6 +98,10 @@ export function createCanvasRuntime({
             }
 
             return bridge.read();
+        },
+
+        identityContext() {
+            return readIdentityContext(runtimeAdapter.identity);
         },
 
         unmount() {
