@@ -1,0 +1,53 @@
+{
+  "record_status": "PROPOSED public-safe identity lane mirror",
+  "legal_authority": "Design Orchard LLC",
+  "canonical_registry": "Google Sheets",
+  "mirror": "GitHub",
+  "rule": "Reuse existing identities. Lanes classify context and permitted bridges; they do not create users or transfer authority.",
+  "non_transitive": true,
+  "lanes": {
+    "COMPANY_ROOT": "Company/root administration and organizational entry",
+    "COMPANY_BILLING": "Company billing service",
+    "DBA_LABORATORY": "DrMarchand’s Laboratory operational identity",
+    "DBA_LABORATORY_API": "Primary DrMarchand’s Laboratory identity for the API Library relationship",
+    "AUTHOR_PUBLIC": "Author/public identity",
+    "LIBRARY_INFO": "Library information identity",
+    "CREATIVE_KEJ": "KEJ Studio design/creative identity",
+    "SERVICE": "Non-human API, automation, integration, or notification identities",
+    "EXTERNAL": "Identities outside internal trust until explicitly introduced"
+  },
+  "purpose_flags": {
+    "TEST": "Purpose flag only; does not create a separate authority lane."
+  },
+  "bridge_contract": {
+    "fields": [
+      "source_identity",
+      "source_lane",
+      "target_identity",
+      "target_lane",
+      "direction",
+      "purpose",
+      "permission",
+      "trust_state",
+      "authority_transfer"
+    ],
+    "authority_transfer_default": false,
+    "transitive_reachability_default": false
+  },
+  "resolution_order": [
+    "identity",
+    "lane",
+    "role",
+    "scope",
+    "purpose",
+    "trust_state",
+    "permission"
+  ],
+  "rules": [
+    "Email ownership does not itself grant authorization.",
+    "A bridge permits an explicit crossing only; it does not merge identities or namespaces.",
+    "Bridge reachability is not transitive unless separately registered.",
+    "External test identities remain external until explicitly introduced.",
+    "Canvas consumes resolved identity context and must not create an independent user authority."
+  ]
+}

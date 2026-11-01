@@ -1,0 +1,50 @@
+:root {
+    --canvas-page-bg: #0b0d10;
+    --canvas-surface-bg: #14181d;
+    --canvas-text: #f4f6f8;
+    --canvas-muted: #9ca6b0;
+    --canvas-border: rgba(255,255,255,.14);
+    --canvas-accent: #ffffff;
+}
+
+/* DrMarchand’s Laboratory family */
+html[data-canvas-domain="laboratory"] {
+    --canvas-page-bg: #09110f;
+    --canvas-surface-bg: #101a17;
+    --canvas-text: #effaf6;
+    --canvas-muted: #9bb5aa;
+    --canvas-border: rgba(190,255,226,.16);
+}
+
+/* Design Orchard family */
+html[data-canvas-domain="design-orchard"] {
+    --canvas-page-bg: #0d1108;
+    --canvas-surface-bg: #171c10;
+    --canvas-text: #f5f8ee;
+    --canvas-muted: #abb69b;
+    --canvas-border: rgba(224,255,183,.16);
+}
+
+/* DrMarchand family */
+html[data-canvas-domain="drmarchands"] {
+    --canvas-page-bg: #0d0d11;
+    --canvas-surface-bg: #17171d;
+    --canvas-text: #f6f6f8;
+    --canvas-muted: #aaaab6;
+    --canvas-border: rgba(255,255,255,.14);
+}
+
+/* Library family */
+html[data-canvas-domain="library"] {
+    --canvas-page-bg: #100d09;
+    --canvas-surface-bg: #1b1610;
+    --canvas-text: #faf5eb;
+    --canvas-muted: #b8aa96;
+    --canvas-border: rgba(255,229,190,.16);
+}
+
+body {
+    margin: 0;
+    background: var(--canvas-page-bg);
+    color: var(--canvas-text);
+}
