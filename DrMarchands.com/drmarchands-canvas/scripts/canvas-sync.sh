@@ -6,6 +6,8 @@ LIVE="$HOME/public_html/canvas/bootstrap"
 
 cd "$REPO"
 
+REV=$(git rev-parse --short HEAD)
+
 echo "== validating source =="
 
 node --check src/identity.js
@@ -110,7 +112,7 @@ for path in \
   bootstrap/ui/404/404.js
 do
     code=$(curl -sS -o /dev/null -w '%{http_code}' \
-        "https://canvas.drmarchandslaboratory.com/$path")
+        "https://canvas.drmarchandslaboratory.com/$path?v=$REV")
 
     printf '%s -> %s\n' "$path" "$code"
 
