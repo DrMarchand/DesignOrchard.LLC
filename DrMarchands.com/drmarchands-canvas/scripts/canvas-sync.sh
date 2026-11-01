@@ -24,9 +24,7 @@ python3 -m py_compile src/server/python/__init__.py
 
 node --test --test-concurrency=1
 
-if npm run | grep -q ' check'; then
-    npm run check
-fi
+npm run check
 
 echo "== syncing shared Canvas assets =="
 
