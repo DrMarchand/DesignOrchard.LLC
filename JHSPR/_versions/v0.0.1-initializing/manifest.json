@@ -1,0 +1,37 @@
+{
+  "record_id": "DO.DML.JHSPR.1",
+  "name": "JHSPR",
+  "pronunciation": "Jasper",
+  "artifact_type": "architecture_documentation",
+  "version": "0.0.1",
+  "version_state": "initializing",
+  "version_folder": "_versions/v0.0.1-initializing",
+  "lifecycle_status": "working_record_unverified",
+  "authority_root": "Design Orchard LLC",
+  "division_namespace": "DO.DML",
+  "operating_environment": "🔬 DrMarchand’s Lab⚛︎ratory™",
+  "date_recorded": "2026-11-06",
+  "canonical_authoring_home_proposed": {
+    "repository": "DrMarchand/drmarchandslaboratory.com",
+    "path": "JHSPR/"
+  },
+  "mirror_policy": "identical_versioned_snapshot_no_independent_authority",
+  "source_revision": "not_reconciled",
+  "implementation_status": "not_verified",
+  "dolsa_conformance_status": "not_tested",
+  "runtime_status": "not_tested",
+  "publication_status": "review_pending",
+  "library_custody_status": "not_verified",
+  "files": [
+    "README.md",
+    "_versions/v0.0.1-initializing/DO.DML.JHSPR.1__v0.0.1__architecture.md",
+    "_versions/v0.0.1-initializing/manifest.json"
+  ],
+  "version_doctrine": "DrMarchand/DesignOrchard.LLC/Registry/Versioning/autonomous-versioning-doctrine.json",
+  "non_claims": [
+    "not_a_jhspr_software_release",
+    "no_parser_or_loader_verified",
+    "no_cross_language_execution_verified",
+    "no_authorized_release_claim"
+  ]
+}
