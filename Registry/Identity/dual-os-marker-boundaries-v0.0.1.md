@@ -45,4 +45,6 @@ Show the actual site/system names in public metadata. **Do not** expose local us
 
 Verify, through a *private* host inspection: user-account existence and type, account-to-bridge permission scope, workspace folder existence, ownership and ACLs, symlink and mount behavior, admission/quarantine/rollback procedure, recorded failures, exact external build path, source-control mapping, and a work-specific authorized-human decision. Capture restricted receipts in appropriate custody; no live host change is authorized by this note.
 
+**Machine-readable companion:** [Dual-OS marker registry](dual-os-marker-boundaries-v0.0.1.json), containing no actual host account names or paths.
+
 **Disposition:** Proposed documentation correction. Private topology, running services, access isolation, system readiness and commercial trademark claims remain unverified.
