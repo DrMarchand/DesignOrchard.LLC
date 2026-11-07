@@ -54,7 +54,51 @@
     "implementation_status": "not_enforced",
     "current_working_versions_lane": "🔬 DrMarchand’s Lab⚛︎ratory™",
     "superseded_versions_and_history_lane": "📚 DrMarchand’s ⚛︎ Library™",
-    "archive_requires_verified_custody_receipt": true
+    "archive_requires_verified_custody_receipt": true,
+    "version_representation": {
+      "logical_display": "MAJOR.MINOR.PATCH",
+      "filesystem_safe_token": "MAJOR_MINOR_PATCH",
+      "use_underscores": "where periods are inconvenient, ambiguous, or unsafe for the target parser or filesystem conventions",
+      "same_numeric_identity": true,
+      "examples": [
+        {
+          "display": "0.0.0",
+          "token": "0_0_0"
+        },
+        {
+          "display": "0.0.1",
+          "token": "0_0_1"
+        },
+        {
+          "display": "0.9.9",
+          "token": "0_9_9"
+        },
+        {
+          "display": "1.0.0",
+          "token": "1_0_0"
+        },
+        {
+          "display": "1.0.1",
+          "token": "1_0_1"
+        },
+        {
+          "display": "9.9.9",
+          "token": "9_9_9"
+        }
+      ],
+      "preserve_file_extensions_and_domain_dots": true,
+      "identifiers_cannot_start_with_number_without_prefix_in_some_languages": true,
+      "historical_files_must_not_be_renamed_automatically": true,
+      "policy_document": "Registry/Versioning/jhspr-copy-forward-sequential-versions-20261107.md"
+    },
+    "copy_forward": {
+      "freeze_and_verify_old_before_increment": true,
+      "duplicate_exact_verified_bytes_to_new_working_copy": true,
+      "predecessor_remains_immutable": true,
+      "archive_superseded_after_successor_approved_and_custody_verified": true,
+      "do_not_invent_historical_versions": true,
+      "rollout_implementation_status": "not_enforced"
+    }
   },
   "creative": {
     "working_draft_label": "PROOF-x",
