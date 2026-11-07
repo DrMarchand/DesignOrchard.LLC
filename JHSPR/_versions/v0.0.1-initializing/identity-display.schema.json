@@ -1,5 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "File rights: Copyright holder pending work-specific verification; see JHSPR/RIGHTS.md. This metadata is not a copyright claim or licensing grant.",
   "title": "Type-agnostic identity and conditional copyright notice",
   "description": "Documentation/display data only; does not prove rights status or run JHSPR.",
   "type": "object",
@@ -121,6 +122,5 @@
         }
       ]
     }
-  },
-  "$comment": "File rights: Copyright holder pending work-specific verification; see JHSPR/RIGHTS.md. This metadata is not a copyright claim or licensing grant."
+  }
 }
