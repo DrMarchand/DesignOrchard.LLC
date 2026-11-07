@@ -47,7 +47,7 @@ For schema-locked files that permit no extra metadata, record the precise path, 
 Use the [proposed code and creative lifecycle correction](../Versioning/code-and-creative-lifecycle-correction-20261106.md) to distinguish:
 
 - **Code:** a version record such as `0.0.0` (core anchor), `0.0.1` (first purposeful change), `1.0.0` (official core), or `1.0.1` (usable only after evidence and required steps). A documentation file at `v0.0.1-initializing` must not imply a production JHSPR runtime.
-- **Creative work:** an internal working proof stage, a per-project/client `PROOF-1`, `PROOF-2`, etc., and a separately supported disposition such as `APPROVED`, `REFUNDED`, or `CANCELLED`. Never label a draft `APPROVED` without authorization.
+- **Creative work:** a project-specific first recorded draft `PROOF-0`, followed by `PROOF-1`, `PROOF-2`, etc., and independent delivery/selection events and an evidenced disposition such as `APPROVED`, `REFUNDED`, or `CANCELLED`. KEJ Studio holds proof records; a sent email does not renumber a proof or establish approval.
 - **Copyright:** identity, owner, rights evidence and first-publication year remain independently determined; version, proof number and client disposition do **not** change copyright title or licensing.
 
 Prefer displaying a concise lifecycle field adjacent to the file's identity and rights notice. Store immutable predecessor links, approved proof references and decision receipts in machine-readable sidecars. Do not retrofit file headers, rename versions, or relabel client work without evidence and review.
@@ -75,6 +75,6 @@ During review, repositories exposed differing LICENSE contexts, including an MIT
 
 ## Validation and promotion
 
-For each proposed change, check: valid parser/syntax, test outcomes, maintained behavior, fixed third-party notices, checksum/parity, linked source revision, ownership evidence, current file status, and Library custody. A verified owner must be backed by a **work-specific evidence record**. Promotion and public distribution require final authorized-human review.
+For each proposed change, check: valid parser/syntax, test outcomes, maintained behavior, fixed third-party notices, checksum/parity, linked source revision, ownership evidence, current file status, and **appropriate custody** (KEJ Studio for creative proof records; Laboratory for current code; Library for superseded software versions). A verified owner must be backed by a **work-specific evidence record**. Promotion and public distribution require final authorized-human review.
 
 **Current disposition:** Proposed policy for review, not a legal determination or automatically enforced cross-ecosystem rule.
