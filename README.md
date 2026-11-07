@@ -65,3 +65,5 @@ Work-specific authorship, copyright, licensing, and publication records control 
 Use [BRAND_DISPLAY_STANDARD.md](BRAND_DISPLAY_STANDARD.md) for current ™ / ℠ placement, legal-name formatting, and internal-system naming.
 
 The proposed [type-agnostic identity display contract](Registry/Identity/dynamic-identity-display-v0.0.1.md) keeps classifications such as programming language, service, and product separate from names and copyright; it is a draft and does not override the current brand or rights rules.
+
+The proposed [file-level rights notice standard](Registry/Rights/file-level-notice-standard-v0.0.1.md) specifies where a file itself displays a verified holder—or a clearly labeled pending work-specific rights status—without overriding existing licenses.
