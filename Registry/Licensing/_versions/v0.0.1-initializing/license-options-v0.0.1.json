@@ -1,0 +1,85 @@
+{
+  "catalog_version": "0.0.1",
+  "checked_on": "2026-11-07",
+  "record_status": "review_pending",
+  "scope": "software-only licensing recommendations; no license is applied",
+  "apache_latest_verified_version": "2.0",
+  "apache_latest_source": "https://www.apache.org/licenses/",
+  "no_automatic_license_version_upgrade": true,
+  "exclusive_menu_licenses": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "dual_licensing_is_not_implicitly_selected": true,
+  "options": {
+    "Apache-2.0": {
+      "title": "Apache License, Version 2.0",
+      "spdx": "Apache-2.0",
+      "source": "https://www.apache.org/licenses/LICENSE-2.0.html",
+      "purpose": "Permissive software licensing with an express, bounded contributor patent license and patent litigation termination.",
+      "capabilities": [
+        "commercial_use",
+        "modification",
+        "redistribution",
+        "proprietary_derivatives",
+        "private_use",
+        "express_bounded_contributor_patent_grant"
+      ],
+      "conditions": [
+        "provide_full_license_copy_on_redistribution",
+        "retain_applicable_legal_notices",
+        "mark_changed_files",
+        "preserve_relevant_NOTICE_attributions_if_present"
+      ],
+      "limits": [
+        "no_general_trademark_grant",
+        "no_warranty",
+        "no_patent_clearance_guarantee",
+        "not_an_exclusivity_license"
+      ]
+    },
+    "MIT": {
+      "title": "MIT License",
+      "spdx": "MIT",
+      "source": "https://opensource.org/license/mit",
+      "purpose": "Short permissive software license prioritizing broad reuse and simpler copyright/license notice.",
+      "capabilities": [
+        "commercial_use",
+        "modification",
+        "redistribution",
+        "proprietary_derivatives",
+        "private_use"
+      ],
+      "conditions": [
+        "preserve_copyright_and_permission_notice_in_copies_or_substantial_portions"
+      ],
+      "limits": [
+        "no_express_patent_license_in_text",
+        "no_patent_litigation_termination_in_text",
+        "no_warranty",
+        "not_an_exclusivity_license"
+      ]
+    }
+  },
+  "publication_gates": [
+    "identified_copyright_holders",
+    "all_contributor_authority",
+    "third_party_dependency_inventory",
+    "existing_license_review",
+    "separate_artwork_and_client_rights",
+    "exact_released_source_revision",
+    "human_approval",
+    "historical_version_license_preservation"
+  ],
+  "version_custody": {
+    "current_working_code": "Laboratory",
+    "superseded_past_code": "Library",
+    "client_art_proofs": "KEJ Studio"
+  },
+  "official_sources": [
+    "https://www.apache.org/licenses/",
+    "https://www.apache.org/licenses/LICENSE-2.0.html",
+    "https://opensource.org/license/mit",
+    "https://spdx.org/licenses/"
+  ]
+}
