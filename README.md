@@ -63,3 +63,5 @@ Work-specific authorship, copyright, licensing, and publication records control 
 ## Brand display
 
 Use [BRAND_DISPLAY_STANDARD.md](BRAND_DISPLAY_STANDARD.md) for current ™ / ℠ placement, legal-name formatting, and internal-system naming.
+
+The proposed [type-agnostic identity display contract](Registry/Identity/dynamic-identity-display-v0.0.1.md) keeps classifications such as programming language, service, and product separate from names and copyright; it is a draft and does not override the current brand or rights rules.
