@@ -1,5 +1,7 @@
 # JHSPR v0.0.1 — Identity display validation receipt
 
+> **File rights:** Copyright holder pending work-specific verification · [JHSPR rights record](../../RIGHTS.md). This is not a copyright ownership claim.
+
 **Recorded:** 2026-11-06  
 **Artifact scope:** Type-agnostic identity display demonstration only  
 **Status:** Isolated local validation passed; integration/release not verified  

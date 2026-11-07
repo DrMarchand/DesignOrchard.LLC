@@ -1,5 +1,7 @@
 # JHSPR — Jasper
 
+> **File rights:** Copyright holder pending work-specific verification · [JHSPR rights record](RIGHTS.md). This is not a copyright ownership claim.
+
 > Versioned, release-safe architecture documentation for the proposed polyglot programming-language layer of Design Orchard LLC.
 
 **Record ID:** `DO.DML.JHSPR.1`  

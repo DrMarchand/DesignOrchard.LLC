@@ -1,5 +1,7 @@
 # Dynamic identity display contract — v0.0.1 (initializing)
 
+> **File rights:** Copyright holder pending work-specific verification · [JHSPR rights record](../../RIGHTS.md). This is not a copyright ownership claim.
+
 **Record:** DO.DML.JHSPR.1  
 **Scope:** Cross-type display model demonstrated in the JHSPR architecture folder; not proof of JHSPR language execution.  
 **Proposed display:** **ALT IDENTITY.NAME [© YEAR OWNER when rights are independently verified]**

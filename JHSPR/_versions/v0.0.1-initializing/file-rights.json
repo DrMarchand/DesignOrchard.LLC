@@ -1,0 +1,88 @@
+{
+  "file_rights_notice": "Copyright holder pending work-specific verification; see JHSPR/RIGHTS.md.",
+  "schema_version": "0.0.1",
+  "record_id": "DO.DML.JHSPR.1",
+  "documentation_version": "0.0.1-initializing",
+  "classification": "programming_language_architecture_documentation",
+  "rights_status": "pending_work_specific_verification",
+  "proposed_personal_author": "Joseph Kyle Marchand",
+  "copyright_owner": null,
+  "first_publication_year": null,
+  "license_status": "destination_repo_review_required",
+  "ai_assistance_review": "required_for_documentation_and_formatter",
+  "human_authorization": "not_recorded",
+  "provenance_notes": {
+    "source": "GitHub draft architecture documentation and project discussion",
+    "green_atomic_icon": "Creator-attested freehand Adobe Illustrator drawing by Joseph Kyle Marchand; not included as binary/source in this versioned folder.",
+    "banner": "Not included; creator and rights not established."
+  },
+  "file_entries": [
+    {
+      "path": "README.md",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "markdown_header"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/DO.DML.JHSPR.1__v0.0.1__architecture.md",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "markdown_header"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/manifest.json",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "json_field"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/identity-display-contract.md",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "markdown_header"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/identity-display.schema.json",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "json_schema_comment"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/identity-display.examples.json",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "json_field"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/format-identity.mjs",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "source_comment"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/format-identity.test.mjs",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "source_comment"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/identity-display-validation-20261106.md",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "markdown_header"
+    },
+    {
+      "path": "RIGHTS.md",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "markdown_header"
+    },
+    {
+      "path": "_versions/v0.0.1-initializing/file-rights.json",
+      "status": "pending_work_specific_verification",
+      "owner": null,
+      "visible_rights": "json_field"
+    }
+  ],
+  "notice_policy": "Do not print © until qualifying work, owner, year, and review evidence are verified; retain destination licenses and third-party notices."
+}

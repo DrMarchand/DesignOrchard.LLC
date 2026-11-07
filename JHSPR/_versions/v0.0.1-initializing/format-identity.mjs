@@ -1,4 +1,10 @@
 /**
+ * JHSPR file: _versions/v0.0.1-initializing/format-identity.mjs
+ * Copyright holder: pending work-specific verification
+ * Rights record: JHSPR/RIGHTS.md (work-specific review required)
+ * Repository-specific licenses and third-party notices are not superseded.
+ */
+/**
  * JHSPR v0.0.1 identity-display demonstration.
  * Plain text only. This is NOT a JHSPR language runtime or legal verifier.
  */

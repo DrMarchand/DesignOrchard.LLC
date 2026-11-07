@@ -1,3 +1,9 @@
+/**
+ * JHSPR file: _versions/v0.0.1-initializing/format-identity.test.mjs
+ * Copyright holder: pending work-specific verification
+ * Rights record: JHSPR/RIGHTS.md (work-specific review required)
+ * Repository-specific licenses and third-party notices are not superseded.
+ */
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import { formatIdentity } from './format-identity.mjs';

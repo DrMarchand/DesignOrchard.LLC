@@ -1,5 +1,7 @@
 # JHSPR (Jasper) — Language Architecture Baseline
 
+> **File rights:** Copyright holder pending work-specific verification · [JHSPR rights record](../../RIGHTS.md). This is not a copyright ownership claim.
+
 **Artifact identity:** `DO.DML.JHSPR.1`  
 **Documentation version:** `0.0.1` — initializing  
 **Recorded:** 2026-11-06  
