@@ -36,7 +36,7 @@ These forms have different jobs and are **not independent Engines** or interchan
 4. The brand stylization `🌴 Design Orchard™` is suitable for visible branding where authorized; use human-readable text for a page's title and structured identity. Avoid a pile of aliases in a single `<title>`.
 5. Keep `Design Orchard OS™` as a public **interface** and `DrMarchand’s OS™` as the distinct private OS. Neither should be rebranded as the Engine.
 6. Keep `KEJ Studio` as graphic design and `DrMarchand’s Laboratory` as software/R&D, under `Design Orchard LLC` as the general-purpose company. The Library is historic software-version custody, not a generic public cryptographic publishing product.
-7. The `infinity_os` local computer account and `infinite_os` root system folder are **private infrastructure identifiers**, never public SEO terms. Do not print real host paths, user names, usernames, private roots, SSH alias details, or permissions in metadata or copy.
+7. The internal OS marker pair distinguishes a **private account / bridge-boundary context** (`♾️ OS`) from a **controlled workspace root / system-folder context** (`∞ OS`). Their actual host identifiers, usernames, paths and access configuration are private and **must not appear in public SEO or metadata**. The markers are not additional branded OS names and do not certify security or publishing status. See the [dual-system marker boundary](dual-os-marker-boundaries-v0.0.1.md).
 8. The copied third-party biography conflates the technical Engine, proposed marks, company structure, and possible functionality, and introduces an unrelated similarly named person. **Do not publish unsupported linkage or implied personal identity matches.**
 
 ## Observed issue and correction targets
