@@ -55,12 +55,14 @@ The audit observes **file content**, not a legal compliance ruling, distribution
 
 ## Pure JavaScript demonstration
 
-- [Recommendation module](_versions/v0.0.1-initializing/recommend-license.mjs) (no file write, network, mutation, licensing, or human approval capability).
-- [Automated tests](_versions/v0.0.1-initializing/recommend-license.test.mjs) — run from this directory using `node --test recommend-license.test.mjs` in an isolated local test environment.
+- [Current Laboratory recommendation module](https://github.com/DrMarchand/drmarchandslaboratory.com/blob/feat/license-selector-v0.0.1-20261107/SoftwareLicensing/current/v0.0.1-initializing/recommend-license.mjs) (no file write, network, mutation, licensing, or human approval capability).
+- [Laboratory automated tests](https://github.com/DrMarchand/drmarchandslaboratory.com/blob/feat/license-selector-v0.0.1-20261107/SoftwareLicensing/current/v0.0.1-initializing/recommend-license.test.mjs) — run from this directory using `node --test recommend-license.test.mjs` in an isolated local test environment.
 - [Two-option license catalog](_versions/v0.0.1-initializing/license-options-v0.0.1.json) — evidence-source links and obligations.
 - [Input JSON Schema](_versions/v0.0.1-initializing/license-review-input-v0.0.1.schema.json) — structural validation only.
 - [Illustrative cases](_versions/v0.0.1-initializing/license-decision.examples.json) — no actual license approvals.
 - [Isolated validation receipt](_versions/v0.0.1-initializing/validation-receipt-20261107.md).
+
+Working executable source and tests reside only in the Laboratory draft PR [#6](https://github.com/DrMarchand/drmarchandslaboratory.com/pull/6); this company registry keeps policy, catalog, input schema, examples and the validation receipt. The read-only terminal interface is also in the Laboratory branch. This code has not been merged or deployed.
 
 A score is a **reproducible heuristic**, not a legal opinion. The module returns an optional recommendation, explanatory reasons, risk flags, blockers, and `applicationAllowed:false` / `releaseAuthorized:false` regardless of inputs. No GitHub App, agent, or tool may self-authorize legal licensing.
 
