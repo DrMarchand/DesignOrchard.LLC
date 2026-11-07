@@ -63,3 +63,11 @@ Work-specific authorship, copyright, licensing, and publication records control 
 ## Brand display
 
 Use [BRAND_DISPLAY_STANDARD.md](BRAND_DISPLAY_STANDARD.md) for current ™ / ℠ placement, legal-name formatting, and internal-system naming.
+
+The proposed [type-agnostic identity display contract](Registry/Identity/dynamic-identity-display-v0.0.1.md) keeps classifications such as programming language, service, and product separate from names and copyright; it is a draft and does not override the current brand or rights rules.
+
+The proposed [file-level rights notice standard](Registry/Rights/file-level-notice-standard-v0.0.1.md) specifies where a file itself displays a verified holder—or a clearly labeled pending work-specific rights status—without overriding existing licenses.
+
+The proposed [code-version and creative-proof lifecycle correction](Registry/Versioning/code-and-creative-lifecycle-correction-20261106.md) separates the `0.0.0` core anchor, `1.0.0` official core, and `1.0.1` usable milestone from per-project creative drafts beginning at `PROOF-0`. Its [Nana proof and software custody correction](Registry/Creative/nana-proof-system-and-code-custody-20261107.md) assigns creative proof records to KEJ Studio, current working code to 🔬 DrMarchand’s Lab⚛︎ratory™, and superseded code versions/history to 📚 DrMarchand’s ⚛︎ Library™. These documents remain draft proposals; they do not retroactively promote versions or approve client work.
+
+The proposed [software license recommendation gate](Registry/Licensing/README.md) compares `Apache-2.0` and `MIT` by software purpose, contributor/patent considerations, existing licenses and rights. It flags work-specific risks and requires a separate authorized-human decision; it never edits an existing `LICENSE` file automatically.

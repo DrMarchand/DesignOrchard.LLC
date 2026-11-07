@@ -1,0 +1,71 @@
+{
+  "record_id": "DO.IDENTITY.DUAL_OS.MARKERS.1",
+  "version": "0.0.1-initializing",
+  "status": "review_pending",
+  "authority": "Design Orchard LLC",
+  "recorded_date": "2026-11-07",
+  "sources": [
+    "explicit_human_architecture_correction"
+  ],
+  "branded_operating_systems": {
+    "private": "DrMarchand’s OS™",
+    "public": "Design Orchard OS™",
+    "markers_are_new_brands": false,
+    "previous_glyph_inserted_private_os_name": "forbidden_current_display"
+  },
+  "dual_system_markers": [
+    {
+      "marker": "♾️ OS",
+      "encoding_class": "emoji",
+      "canonical_role": "local_account_bridge_boundary",
+      "object_kind": "host_user_account_context",
+      "runtime_identifier": "private_host_record_only",
+      "verified_on_host": false
+    },
+    {
+      "marker": "∞ OS",
+      "encoding_class": "text_symbol",
+      "canonical_role": "controlled_root_workspace",
+      "object_kind": "filesystem_root_folder_context",
+      "runtime_identifier": "private_host_record_only",
+      "verified_on_host": false
+    }
+  ],
+  "operational_boundary": {
+    "work_may_be_developed_outside_workspace": true,
+    "admission": "requires_validation_and_explicit_permission",
+    "withdrawal": "quarantine_or_remove_from_active_workspace_after_review",
+    "deletion": "never_automatic",
+    "public_visibility": "not_inferred",
+    "cross_os_permissions": "not_inferred"
+  },
+  "do_not_conflate": [
+    "visual_marker_with_actual_user_name",
+    "symbol_with_filesystem_path",
+    "private_host_user_with_public_os_name",
+    "workspace_directory_with_public_build_destination",
+    "dual_system_marker_with_new_branded_os",
+    "bridge_boundary_with_public_cryptographic_gateway"
+  ],
+  "history": {
+    "older_glyph_public_private_role_mapping": "requires_reconciliation_against_current_account_and_folder_object_types",
+    "older_source_files": "preserve_as_historical_or_proposal_records",
+    "effective_source_migrations": "none"
+  },
+  "disclosure": {
+    "host_user_name": "never_in_public_metadata",
+    "absolute_root_path": "never_in_public_metadata",
+    "acl_and_ssh_details": "private_evidence_only",
+    "approved_display_markers": [
+      "♾️ OS",
+      "∞ OS"
+    ]
+  },
+  "validation": {
+    "host_identity": "not_verified",
+    "root_path": "not_verified",
+    "permissions_and_isolation": "not_verified",
+    "ingress_egress": "not_verified",
+    "publication": "not_authorized"
+  }
+}

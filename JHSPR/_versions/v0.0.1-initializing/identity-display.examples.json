@@ -1,0 +1,46 @@
+{
+  "file_rights_notice": "Copyright holder pending work-specific verification; see JHSPR/RIGHTS.md. Existing third-party rights and host licenses remain applicable.",
+  "description": "Illustrations of record structure, NOT verified JHSPR copyright claims. The verified example is fictional.",
+  "examples": [
+    {
+      "identity": {
+        "alt": "⚛︎",
+        "name": "JHSPR",
+        "type": "programming_language",
+        "record_id": "DO.DML.JHSPR.1"
+      },
+      "rights": {
+        "status": "pending"
+      }
+    },
+    {
+      "identity": {
+        "alt": "✧",
+        "name": "Example Service",
+        "type": "service",
+        "record_id": "EXAMPLE.SVC.1"
+      },
+      "rights": {
+        "status": "not_applicable"
+      }
+    },
+    {
+      "identity": {
+        "alt": "◇",
+        "name": "Example Protocol",
+        "type": "protocol",
+        "record_id": "EXAMPLE.PROTOCOL.1"
+      },
+      "rights": {
+        "status": "verified",
+        "copyright": {
+          "year": 2026,
+          "owner": "Example Author",
+          "work_id": "EXAMPLE.WORK.1",
+          "evidence_ref": "illustrative-approved-record",
+          "approved_by": "Example Reviewer"
+        }
+      }
+    }
+  ]
+}

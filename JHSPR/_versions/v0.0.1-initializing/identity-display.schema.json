@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "File rights: Copyright holder pending work-specific verification; see JHSPR/RIGHTS.md. This metadata is not a copyright claim or licensing grant.",
+  "title": "Type-agnostic identity and conditional copyright notice",
+  "description": "Documentation/display data only; does not prove rights status or run JHSPR.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "identity",
+    "rights"
+  ],
+  "properties": {
+    "identity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "alt",
+        "name",
+        "type",
+        "record_id"
+      ],
+      "properties": {
+        "alt": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 32,
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 256,
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+        },
+        "type": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9_]*$",
+          "maxLength": 64
+        },
+        "record_id": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128,
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+        }
+      }
+    },
+    "rights": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "pending",
+            "verified",
+            "not_applicable"
+          ]
+        },
+        "copyright": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "year": {
+              "type": "integer",
+              "minimum": 1000,
+              "maximum": 9999
+            },
+            "owner": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+            },
+            "work_id": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+            },
+            "evidence_ref": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+            },
+            "approved_by": {
+              "type": "string",
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
+            }
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "verified"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "required": [
+              "copyright"
+            ],
+            "properties": {
+              "copyright": {
+                "required": [
+                  "year",
+                  "owner",
+                  "work_id",
+                  "evidence_ref",
+                  "approved_by"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

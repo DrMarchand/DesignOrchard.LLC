@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Proposed draft; copyright holder for source and docs requires work-specific verification; schema validation is not licensing approval.",
+  "title": "Design Orchard advisory software license review input",
+  "description": "Only Apache-2.0 or MIT are candidate output licenses. Rights owner approval remains a separate gate.",
+  "type": "object",
+  "required": [
+    "artifactKind",
+    "softwarePurpose",
+    "distribution",
+    "patentConcern",
+    "contributors",
+    "rightsStatus",
+    "dependencyStatus",
+    "existingLicense",
+    "restrictionGoal"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "artifactKind": {
+      "type": "string",
+      "enum": [
+        "software_only",
+        "mixed_assets",
+        "artwork_only"
+      ]
+    },
+    "softwarePurpose": {
+      "type": "string",
+      "enum": [
+        "language_or_engine",
+        "sdk_or_api",
+        "small_utility",
+        "simple_library",
+        "other"
+      ]
+    },
+    "distribution": {
+      "type": "string",
+      "enum": [
+        "public_release",
+        "client_delivery",
+        "internal_only"
+      ]
+    },
+    "patentConcern": {
+      "type": "string",
+      "enum": [
+        "material",
+        "low",
+        "unknown"
+      ]
+    },
+    "contributors": {
+      "type": "string",
+      "enum": [
+        "multiple",
+        "single",
+        "unknown"
+      ]
+    },
+    "rightsStatus": {
+      "type": "string",
+      "enum": [
+        "verified",
+        "pending",
+        "disputed"
+      ]
+    },
+    "dependencyStatus": {
+      "type": "string",
+      "enum": [
+        "cleared",
+        "unknown",
+        "incompatible"
+      ]
+    },
+    "existingLicense": {
+      "type": "string",
+      "enum": [
+        "none",
+        "MIT",
+        "Apache-2.0",
+        "other",
+        "unknown"
+      ]
+    },
+    "restrictionGoal": {
+      "type": "string",
+      "enum": [
+        "none",
+        "noncommercial",
+        "no_derivatives",
+        "exclusive"
+      ]
+    },
+    "selectedLicense": {
+      "enum": [
+        "Apache-2.0",
+        "MIT",
+        null
+      ]
+    }
+  }
+}

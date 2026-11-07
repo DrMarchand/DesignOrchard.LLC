@@ -1,0 +1,174 @@
+{
+  "record_kind": "proposed_version_and_proof_lifecycle_correction",
+  "authority_root": "Design Orchard LLC",
+  "recorded_on": "2026-11-06",
+  "source": "human clarification in JHSPR/Design Orchard project conversation",
+  "status": "review_pending",
+  "not_effective_as_production_policy": true,
+  "applies_to": [
+    "code_versions",
+    "artwork_and_client_project_proofs"
+  ],
+  "software": {
+    "lifecycle": "sequential_numeric_versions",
+    "core_anchor": {
+      "version": "0.0.0",
+      "description": "Core file/structure anchored; source evidence required"
+    },
+    "first_purposeful_change": {
+      "version": "0.0.1",
+      "requirements": [
+        "purpose_exists",
+        "actual_variable_or_usable_element_added",
+        "linked_to_core_anchor"
+      ]
+    },
+    "development_range": {
+      "from": "0.0.1",
+      "through": "0.9.9",
+      "require_every_intermediate_step": true,
+      "do_not_invent_intermediate_records": true,
+      "rollover_rule": "pending_definition"
+    },
+    "official_core_version": {
+      "version": "1.0.0",
+      "does_not_by_itself_mean_usable": true
+    },
+    "usable_version": {
+      "version": "1.0.1",
+      "requires_prior_sequence": true,
+      "requires_runtime_and_human_validation": true
+    },
+    "version_record_requirements": [
+      "identity",
+      "version",
+      "predecessor",
+      "purpose",
+      "source_revision",
+      "checksum",
+      "change_description",
+      "test_evidence",
+      "human_decision",
+      "custody_reference"
+    ],
+    "implementation_status": "not_enforced",
+    "current_working_versions_lane": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "superseded_versions_and_history_lane": "📚 DrMarchand’s ⚛︎ Library™",
+    "archive_requires_verified_custody_receipt": true,
+    "version_representation": {
+      "logical_display": "MAJOR.MINOR.PATCH",
+      "filesystem_safe_token": "MAJOR_MINOR_PATCH",
+      "use_underscores": "where periods are inconvenient, ambiguous, or unsafe for the target parser or filesystem conventions",
+      "same_numeric_identity": true,
+      "examples": [
+        {
+          "display": "0.0.0",
+          "token": "0_0_0"
+        },
+        {
+          "display": "0.0.1",
+          "token": "0_0_1"
+        },
+        {
+          "display": "0.9.9",
+          "token": "0_9_9"
+        },
+        {
+          "display": "1.0.0",
+          "token": "1_0_0"
+        },
+        {
+          "display": "1.0.1",
+          "token": "1_0_1"
+        },
+        {
+          "display": "9.9.9",
+          "token": "9_9_9"
+        }
+      ],
+      "preserve_file_extensions_and_domain_dots": true,
+      "identifiers_cannot_start_with_number_without_prefix_in_some_languages": true,
+      "historical_files_must_not_be_renamed_automatically": true,
+      "policy_document": "Registry/Versioning/jhspr-copy-forward-sequential-versions-20261107.md"
+    },
+    "copy_forward": {
+      "freeze_and_verify_old_before_increment": true,
+      "duplicate_exact_verified_bytes_to_new_working_copy": true,
+      "predecessor_remains_immutable": true,
+      "archive_superseded_after_successor_approved_and_custody_verified": true,
+      "do_not_invent_historical_versions": true,
+      "rollout_implementation_status": "not_enforced"
+    }
+  },
+  "creative": {
+    "working_draft_label": "PROOF-x",
+    "client_sequence": "increments_per_project_or_product",
+    "internal_stage_token": "xyz-ABC",
+    "internal_stage_token_grammar": "pending_definition",
+    "proof_does_not_mean_approved": true,
+    "dispositions": [
+      "APPROVED",
+      "REFUNDED",
+      "CANCELLED"
+    ],
+    "disposition_is_independent_of_proof_number": true,
+    "disposition_requires_work_specific_evidence": true,
+    "refund_state_does_not_execute_refund": true,
+    "history_must_be_retained": true,
+    "implementation_status": "not_enforced",
+    "first_recorded_proof": "PROOF-0",
+    "first_client_send_can_reference": "any_existing_PROOF_N",
+    "increments_on": "recorded_draft_creation",
+    "renumber_on_send": false,
+    "created_sent_selected_counts_independent": true,
+    "storage_and_custody_lane": "KEJ Studio",
+    "disposition_targets": {
+      "APPROVED": "exact selected proof and variant",
+      "CANCELLED": "last sent proof or null",
+      "REFUNDED": "last sent proof or null with independent refund transaction evidence"
+    },
+    "policy_ref": "Registry/Creative/nana-proof-system-and-code-custody-20261107.md"
+  },
+  "cannot_claim": [
+    "past_versions_already_exist",
+    "all_steps_already_completed",
+    "JHSPR_runtime_working",
+    "client_approval_without_evidence",
+    "refund_performed_without_transaction_receipt",
+    "copyright_transferred_by_disposition",
+    "policy_merged_or_adopted"
+  ],
+  "proposed_custody": {
+    "creative": "KEJ Studio (restricted proof records)",
+    "software_current": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "software_superseded": "📚 DrMarchand’s ⚛︎ Library™"
+  },
+  "authorized_human_validation": "pending",
+  "reconciliation_points": [
+    {
+      "path": "semanticMeaning.0.1.0",
+      "prior": "Stable state",
+      "new_requirement": "No automatic usable-version or core-promotion inference at 0.1.0",
+      "relationship": "possibly_compatible; clarify stable vs usable semantics"
+    },
+    {
+      "path": "semanticMeaning.1.0.0",
+      "prior": "Formal release",
+      "new_requirement": "Official core version; usability is not yet established",
+      "relationship": "ambiguous; compatible only if 'formal release' did not imply usable"
+    },
+    {
+      "path": "semanticMeaning.1.0.1",
+      "prior": "not_present",
+      "new_requirement": "Explicit usable milestone after prior sequence and validation",
+      "relationship": "new_milestone"
+    },
+    {
+      "path": "creative_proofs",
+      "prior": "not_modeled",
+      "new_requirement": "First recorded proof PROOF-0; increments on creation; delivery/selection/disposition and custody remain distinct",
+      "relationship": "new_lifecycle"
+    }
+  ],
+  "latest_creator_clarification_on": "2026-11-07"
+}

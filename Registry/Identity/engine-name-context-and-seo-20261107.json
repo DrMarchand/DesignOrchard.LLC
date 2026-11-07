@@ -1,0 +1,72 @@
+{
+  "record_id": "DO.IDENTITY.ENGINE.SEO.20261107",
+  "record_type": "proposed_contextual_display_mapping",
+  "legal_authority": "Design Orchard LLC",
+  "recorded_on": "2026-11-07",
+  "status": "review_pending",
+  "effective_as_production_mark_policy": false,
+  "modifies_existing_runtime_identifiers": false,
+  "modifies_existing_host_users_or_folders": false,
+  "underlying_engine_identity": {
+    "stable_object_id": "unverified",
+    "one_engine_not_multiple": true,
+    "external_technical": "DrMarchand’s ⚙︎ Nɛuro-Forge Engine",
+    "unmarked_technical": "⚙︎ Nɛuro-Forge Engine",
+    "in_design_orchard_ui": "⚙︎ Engine"
+  },
+  "display_candidates": [
+    {
+      "name": "Design Orchard ⚙︎ Engine",
+      "purpose": "company_branded_descriptive_display",
+      "status": "candidate_not_approved_as_product_identity"
+    },
+    {
+      "name": "🌴 Design Orchard™ ⚙︎ Engine",
+      "purpose": "branded_composite_visual_display",
+      "mark_attaches_to": "Design Orchard",
+      "status": "candidate_context_only"
+    },
+    {
+      "name": "Design Orchard Engine™",
+      "purpose": "potential_commercial_software_goods_mark",
+      "status": "offering_intent_and_trademark_review_required"
+    }
+  ],
+  "legacy_context": {
+    "inside_build": "⚙︎ Nɛuro-Forge Engine™",
+    "prior_authority": "historical internal build label in existing canon",
+    "conflict": "owner requests unmarked references for noncommercial Engine work",
+    "disposition": "needs_explicit_context_reconciliation; do_not_bulk_rename"
+  },
+  "other_distinct_entities": {
+    "legal_root": "Design Orchard LLC",
+    "public_company_interface": "Design Orchard OS™",
+    "private_lab_interface": "DrMarchand’s OS™",
+    "software_r_and_d": "DrMarchand’s Laboratory",
+    "graphic_design": "KEJ Studio"
+  },
+  "private_infrastructure_identifiers": {
+    "public_metadata_exposure": "prohibited",
+    "reference": "private host and folder context maintained outside public documents",
+    "preserve_public_template": "Registry/Identity/server-identity-alias.json"
+  },
+  "runtime_proofs": {
+    "active_site_owner": "not_verified",
+    "exact_deployed_source": "not_verified",
+    "trademark_clearance": "not_verified",
+    "company_branded_engine_offering": "not_verified",
+    "SEO_changes_deployed": false,
+    "indexing_changed": false
+  },
+  "human_review": {
+    "required_for": [
+      "commercial offering identification",
+      "goods or services definition",
+      "trademark clearance",
+      "first use evidence",
+      "live-site changes",
+      "conflict with internal build mark"
+    ],
+    "state": "pending"
+  }
+}
