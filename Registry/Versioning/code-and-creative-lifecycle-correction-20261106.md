@@ -38,8 +38,8 @@ Existing `JHSPR/_versions/v0.0.1-initializing/` files are **architecture/documen
 
 **PROOF means WORKING DRAFT.** Internal working stages may use `PROOF-x` and the supplied `xyz-ABC` identifier. Retain `xyz-ABC` as a literal proposed internal token; its exact grammar and meaning are not yet established by source.
 
-- The **first proof sent to a client** for a product or project is labeled `PROOF-1`.
-- Each later client-facing proof increments **within that same product/project**: `PROOF-2`, `PROOF-3`, etc. Never consume another project's numbers or imply a fixed number of proofs.
+- **Correction (2026-11-07):** The first **created and recorded** draft is `PROOF-0`. Later created proofs increment per project/product; a client-facing send does **not** renumber its proof.
+- The first proof sent to a client may be `PROOF-0` or any later recorded proof. Each send must identify its exact proof/variant and independent transmission evidence. Count created proofs, sent proof IDs, and send events separately. Never consume another project's numbers or imply a fixed number of proofs.
 - Record the exact artifact, creator, issue time, client/project identity, feedback, revisions, and approved delivery before claiming the next proof or a final disposition.
 - Dispositions include `APPROVED`, `REFUNDED`, and `CANCELLED`. They are **project/engagement decisions** supported by evidence, not alternate names for `PROOF-1`, and they do not delete proof history.
 - `APPROVED` requires a traceable authorized client/human decision and identifies which proof or derivative was accepted. It does not automatically authorize public publication or transfer copyright.
@@ -59,6 +59,6 @@ The existing [autonomous versioning doctrine](autonomous-versioning-doctrine.jso
 
 ## 4. Required promotion gate
 
-Before enforcing this as Design Orchard LLC policy: settle the rollover rule and the internal `xyz-ABC` stage grammar, examine historical code/proof sequences, prove tests and negative cases, preserve per-file copyright provenance, capture evidence and a permanent Library custody record, and obtain authorized human validation.
+Before enforcing this as Design Orchard LLC policy: settle the rollover rule and the internal `xyz-ABC` stage grammar, examine historical code/proof sequences, prove tests and negative cases, preserve per-file copyright provenance, capture evidence in the correct operating lane, verify software-history custody in 📚 DrMarchand’s ⚛︎ Library™ where relevant, and obtain authorized human validation. **Creative proof records remain under 🎥 KEJ Studio℠; current working code remains in 🔬 DrMarchand’s Lab⚛︎ratory™.** See the [Nana proof and software custody correction](../Creative/nana-proof-system-and-code-custody-20261107.md).
 
 **Disposition:** Proposed correction grounded in the human's stated intent. Implementation, migration, software readiness, client approval, refund execution, and publication are **not** asserted by this file.
