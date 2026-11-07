@@ -1,0 +1,107 @@
+{
+  "record_kind": "proposed_version_and_proof_lifecycle_correction",
+  "authority_root": "Design Orchard LLC",
+  "recorded_on": "2026-11-06",
+  "source": "human clarification in JHSPR/Design Orchard project conversation",
+  "status": "review_pending",
+  "not_effective_as_production_policy": true,
+  "applies_to": [
+    "code_versions",
+    "artwork_and_client_project_proofs"
+  ],
+  "software": {
+    "lifecycle": "sequential_numeric_versions",
+    "core_anchor": {
+      "version": "0.0.0",
+      "description": "Core file/structure anchored; source evidence required"
+    },
+    "first_purposeful_change": {
+      "version": "0.0.1",
+      "requirements": [
+        "purpose_exists",
+        "actual_variable_or_usable_element_added",
+        "linked_to_core_anchor"
+      ]
+    },
+    "development_range": {
+      "from": "0.0.1",
+      "through": "0.9.9",
+      "require_every_intermediate_step": true,
+      "do_not_invent_intermediate_records": true,
+      "rollover_rule": "pending_definition"
+    },
+    "official_core_version": {
+      "version": "1.0.0",
+      "does_not_by_itself_mean_usable": true
+    },
+    "usable_version": {
+      "version": "1.0.1",
+      "requires_prior_sequence": true,
+      "requires_runtime_and_human_validation": true
+    },
+    "version_record_requirements": [
+      "identity",
+      "version",
+      "predecessor",
+      "purpose",
+      "source_revision",
+      "checksum",
+      "change_description",
+      "test_evidence",
+      "human_decision",
+      "custody_reference"
+    ],
+    "implementation_status": "not_enforced"
+  },
+  "creative": {
+    "working_draft_label": "PROOF-x",
+    "first_client_proof": "PROOF-1",
+    "client_sequence": "increments_per_project_or_product",
+    "internal_stage_token": "xyz-ABC",
+    "internal_stage_token_grammar": "pending_definition",
+    "proof_does_not_mean_approved": true,
+    "dispositions": [
+      "APPROVED",
+      "REFUNDED",
+      "CANCELLED"
+    ],
+    "disposition_is_independent_of_proof_number": true,
+    "disposition_requires_work_specific_evidence": true,
+    "refund_state_does_not_execute_refund": true,
+    "history_must_be_retained": true,
+    "implementation_status": "not_enforced"
+  },
+  "conflicts_with_prior_doctrine": [
+    {
+      "path": "semanticMeaning.0.1.0",
+      "prior": "Stable state",
+      "current": "development sequence; not automatic usable or core promotion"
+    },
+    {
+      "path": "semanticMeaning.1.0.0",
+      "prior": "Formal release",
+      "current": "official core version, not yet usable"
+    },
+    {
+      "path": "semanticMeaning.1.0.1",
+      "prior": "not_present",
+      "current": "usable version only after prerequisite sequence and validation"
+    },
+    {
+      "path": "creative_proofs",
+      "prior": "not_modeled",
+      "current": "PROOF-N sequence plus separate dispositions"
+    }
+  ],
+  "cannot_claim": [
+    "past_versions_already_exist",
+    "all_steps_already_completed",
+    "JHSPR_runtime_working",
+    "client_approval_without_evidence",
+    "refund_performed_without_transaction_receipt",
+    "copyright_transferred_by_disposition",
+    "policy_merged_or_adopted"
+  ],
+  "proposed_custody": "📚 DrMarchand’s ⚛︎ Library™",
+  "authorized_human_validation": "pending"
+}
