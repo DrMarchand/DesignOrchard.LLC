@@ -51,11 +51,13 @@
       "human_decision",
       "custody_reference"
     ],
-    "implementation_status": "not_enforced"
+    "implementation_status": "not_enforced",
+    "current_working_versions_lane": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "superseded_versions_and_history_lane": "📚 DrMarchand’s ⚛︎ Library™",
+    "archive_requires_verified_custody_receipt": true
   },
   "creative": {
     "working_draft_label": "PROOF-x",
-    "first_client_proof": "PROOF-1",
     "client_sequence": "increments_per_project_or_product",
     "internal_stage_token": "xyz-ABC",
     "internal_stage_token_grammar": "pending_definition",
@@ -69,7 +71,19 @@
     "disposition_requires_work_specific_evidence": true,
     "refund_state_does_not_execute_refund": true,
     "history_must_be_retained": true,
-    "implementation_status": "not_enforced"
+    "implementation_status": "not_enforced",
+    "first_recorded_proof": "PROOF-0",
+    "first_client_send_can_reference": "any_existing_PROOF_N",
+    "increments_on": "recorded_draft_creation",
+    "renumber_on_send": false,
+    "created_sent_selected_counts_independent": true,
+    "storage_and_custody_lane": "KEJ Studio",
+    "disposition_targets": {
+      "APPROVED": "exact selected proof and variant",
+      "CANCELLED": "last sent proof or null",
+      "REFUNDED": "last sent proof or null with independent refund transaction evidence"
+    },
+    "policy_ref": "Registry/Creative/nana-proof-system-and-code-custody-20261107.md"
   },
   "cannot_claim": [
     "past_versions_already_exist",
@@ -80,7 +94,11 @@
     "copyright_transferred_by_disposition",
     "policy_merged_or_adopted"
   ],
-  "proposed_custody": "📚 DrMarchand’s ⚛︎ Library™",
+  "proposed_custody": {
+    "creative": "KEJ Studio (restricted proof records)",
+    "software_current": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "software_superseded": "📚 DrMarchand’s ⚛︎ Library™"
+  },
   "authorized_human_validation": "pending",
   "reconciliation_points": [
     {
@@ -104,8 +122,9 @@
     {
       "path": "creative_proofs",
       "prior": "not_modeled",
-      "new_requirement": "PROOF-N per project plus separate evidenced dispositions",
+      "new_requirement": "First recorded proof PROOF-0; increments on creation; delivery/selection/disposition and custody remain distinct",
       "relationship": "new_lifecycle"
     }
-  ]
+  ],
+  "latest_creator_clarification_on": "2026-11-07"
 }
