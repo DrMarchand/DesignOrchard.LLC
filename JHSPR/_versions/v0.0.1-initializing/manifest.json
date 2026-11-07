@@ -59,7 +59,7 @@
     "scope": "identity_display_demo_only",
     "isolated_node_tests": "6_passed",
     "json_schema": "valid_draft_2020_12",
-    "examples": "3_positive_4_negative",
+    "examples": "3_positive_8_negative",
     "evidence_file": "_versions/v0.0.1-initializing/identity-display-validation-20261106.md",
     "runtime_language_integration": "not_tested"
   }

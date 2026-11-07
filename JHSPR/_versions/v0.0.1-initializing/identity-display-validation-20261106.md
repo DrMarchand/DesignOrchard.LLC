@@ -14,7 +14,7 @@ Source files were read from the proposed Laboratory GitHub branch `docs/jhspr-ar
 | --- | --- |
 | `format-identity.mjs` | `c79c86d2915a85193126c4a934e2390dd4e8dc3a` |
 | `format-identity.test.mjs` | `30335dc51ef9f744d6da3c3b5f1fb7d03ed158bb` |
-| `identity-display.schema.json` | `9580bfd171cd45108834133dd1c4f7cb10620447` |
+| `identity-display.schema.json` | `fa143ce6460b968312ac64258ea3d726b4914bf9` |
 | `identity-display.examples.json` | `c7bddd2220d57904fe0ffd968c3f88dfce990e44` |
 
 Git blob hashes identify Git objects and match source file bytes; they do not prove authorship, rights, provenance before GitHub, or runtime conformance.
@@ -26,10 +26,10 @@ Git blob hashes identify Git objects and match source file bytes; they do not pr
 - **Result:** 6 test cases passed, 0 failed
 - **Python:** `3.13.5`; **jsonschema:** `4.26.0`
 - **Schema:** JSON Schema Draft 2020-12 checked with `Draft202012Validator.check_schema`
-- **Fixtures:** 3 positive example records accepted; 4 negative records rejected
+- **Fixtures:** 3 positive example records accepted; 8 negative records rejected
 - **Code effects:** No JHSPR language host or external service executed. The demonstration produced strings and validation results only.
 
-The tests show that `programming_language` remains distinct from `product` and `service`, pending rights omit © even when explicitly requested, verified-record fields are required before a notice can be considered, and blank/malformed entries are rejected. A fabricated `verified` JSON record is not legal proof. Only the authorized caller can establish that the rights evidence and human approval are genuine.
+The tests show that `programming_language` remains distinct from `product` and `service`, pending rights omit © even when explicitly requested, verified-record fields are required before a notice can be considered, and blank/malformed entries and multiline identity/rights fields are rejected. A fabricated `verified` JSON record is not legal proof. Only the authorized caller can establish that the rights evidence and human approval are genuine.
 
 ## Not established by these tests
 

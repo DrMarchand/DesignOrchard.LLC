@@ -23,13 +23,13 @@
           "type": "string",
           "minLength": 1,
           "maxLength": 32,
-          "pattern": "\\S"
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
         },
         "name": {
           "type": "string",
           "minLength": 1,
           "maxLength": 256,
-          "pattern": "\\S"
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
         },
         "type": {
           "type": "string",
@@ -39,7 +39,8 @@
         "record_id": {
           "type": "string",
           "minLength": 1,
-          "maxLength": 128
+          "maxLength": 128,
+          "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
         }
       }
     },
@@ -68,19 +69,23 @@
             },
             "owner": {
               "type": "string",
-              "minLength": 1
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
             },
             "work_id": {
               "type": "string",
-              "minLength": 1
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
             },
             "evidence_ref": {
               "type": "string",
-              "minLength": 1
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
             },
             "approved_by": {
               "type": "string",
-              "minLength": 1
+              "minLength": 1,
+              "pattern": "^[^\\r\\n]*\\S[^\\r\\n]*$"
             }
           }
         }
