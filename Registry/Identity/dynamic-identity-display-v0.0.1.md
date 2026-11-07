@@ -47,6 +47,10 @@ The proposed JHSPR `0.0.1-initializing` draft includes an [identity display cont
 
 The tests verify string formatting and schema acceptance/rejection only. This proposal does not establish a production identity registry, a JHSPR language implementation, legal clearance, a commercial offering, or an approved copyright owner.
 
+## File-level notices
+
+The proposed [file-level rights notice standard](../Rights/file-level-notice-standard-v0.0.1.md) governs **how an open file would show its own verified copyright holder or explicit pending status**. It is separate from the display-name format and never replaces destination-repository licenses, source provenance, or work-specific rights approval.
+
 ## Promotion gate
 
 Before adopting this as the company-wide display standard, reconcile existing registry identities and marks, validate against actual owned work-specific rights records, test positive and negative cases across entity types, record custody in 📚 DrMarchand’s ⚛︎ Library™, and obtain an authorized-human decision. Keep the existing `BRAND_DISPLAY_STANDARD.md` controlling for previously approved name/mark display until superseded through a documented review.
