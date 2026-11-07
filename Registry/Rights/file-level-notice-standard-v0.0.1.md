@@ -42,6 +42,16 @@ This is a template; the chosen ALT form does not itself establish legal or techn
 
 For schema-locked files that permit no extra metadata, record the precise path, file hash, version, and ownership status in a sidecar. When the actual copyright holder is known, append `© YEAR OWNER` as a notice; **do not substitute a disclaimer for genuine legal review.**
 
+## Lifecycle metadata: code vs. creative proofs
+
+Use the [proposed code and creative lifecycle correction](../Versioning/code-and-creative-lifecycle-correction-20261106.md) to distinguish:
+
+- **Code:** a version record such as `0.0.0` (core anchor), `0.0.1` (first purposeful change), `1.0.0` (official core), or `1.0.1` (usable only after evidence and required steps). A documentation file at `v0.0.1-initializing` must not imply a production JHSPR runtime.
+- **Creative work:** an internal working proof stage, a per-project/client `PROOF-1`, `PROOF-2`, etc., and a separately supported disposition such as `APPROVED`, `REFUNDED`, or `CANCELLED`. Never label a draft `APPROVED` without authorization.
+- **Copyright:** identity, owner, rights evidence and first-publication year remain independently determined; version, proof number and client disposition do **not** change copyright title or licensing.
+
+Prefer displaying a concise lifecycle field adjacent to the file's identity and rights notice. Store immutable predecessor links, approved proof references and decision receipts in machine-readable sidecars. Do not retrofit file headers, rename versions, or relabel client work without evidence and review.
+
 ## Rights record (separate from rendered file notice)
 
 Minimum per-work fields: identity, file path, version, work type, human creative contribution, creator attestation and evidence, actual legal owner and basis (including any employment or assignment), first-publication year if used, existing license(s), third-party notices, redistribution scope, review status, approving human and evidence reference. Distinguish `pending`, `verified`, `not_applicable`, and `disputed` without silently promoting any status.
