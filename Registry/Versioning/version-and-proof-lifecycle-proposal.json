@@ -71,28 +71,6 @@
     "history_must_be_retained": true,
     "implementation_status": "not_enforced"
   },
-  "conflicts_with_prior_doctrine": [
-    {
-      "path": "semanticMeaning.0.1.0",
-      "prior": "Stable state",
-      "current": "development sequence; not automatic usable or core promotion"
-    },
-    {
-      "path": "semanticMeaning.1.0.0",
-      "prior": "Formal release",
-      "current": "official core version, not yet usable"
-    },
-    {
-      "path": "semanticMeaning.1.0.1",
-      "prior": "not_present",
-      "current": "usable version only after prerequisite sequence and validation"
-    },
-    {
-      "path": "creative_proofs",
-      "prior": "not_modeled",
-      "current": "PROOF-N sequence plus separate dispositions"
-    }
-  ],
   "cannot_claim": [
     "past_versions_already_exist",
     "all_steps_already_completed",
@@ -103,5 +81,31 @@
     "policy_merged_or_adopted"
   ],
   "proposed_custody": "📚 DrMarchand’s ⚛︎ Library™",
-  "authorized_human_validation": "pending"
+  "authorized_human_validation": "pending",
+  "reconciliation_points": [
+    {
+      "path": "semanticMeaning.0.1.0",
+      "prior": "Stable state",
+      "new_requirement": "No automatic usable-version or core-promotion inference at 0.1.0",
+      "relationship": "possibly_compatible; clarify stable vs usable semantics"
+    },
+    {
+      "path": "semanticMeaning.1.0.0",
+      "prior": "Formal release",
+      "new_requirement": "Official core version; usability is not yet established",
+      "relationship": "ambiguous; compatible only if 'formal release' did not imply usable"
+    },
+    {
+      "path": "semanticMeaning.1.0.1",
+      "prior": "not_present",
+      "new_requirement": "Explicit usable milestone after prior sequence and validation",
+      "relationship": "new_milestone"
+    },
+    {
+      "path": "creative_proofs",
+      "prior": "not_modeled",
+      "new_requirement": "PROOF-N per project plus separate evidenced dispositions",
+      "relationship": "new_lifecycle"
+    }
+  ]
 }
