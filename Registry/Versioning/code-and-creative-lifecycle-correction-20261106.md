@@ -51,7 +51,7 @@ Creative original vector work, screenshots, art drafts, and final binaries prese
 
 ## 3. Current doctrine conflict / migration plan
 
-The existing [autonomous versioning doctrine](autonomous-versioning-doctrine.json) presently calls `0.0.0` a core structure exception, `0.0.1` initializing, `0.1.0` stable, and `1.0.0` formal release. This user clarification **conflicts** with `1.0.0` being only a general formal release and adds the key `1.0.1` usable gate. The old document also does not explicitly model `PROOF-n` or client dispositions.
+The existing [autonomous versioning doctrine](autonomous-versioning-doctrine.json) presently calls `0.0.0` a core structure exception, `0.0.1` initializing, `0.1.0` stable, and `1.0.0` formal release. This user clarification **adds an explicit distinction** between `1.0.0` as the official core and `1.0.1` as the usable milestone. The old doctrine's `1.0.0 = Formal release` wording is ambiguous: a formal **core** release could be compatible, but a claim that `1.0.0` is already usable would conflict with the new gate. The old `0.1.0 = Stable state` label may also be compatible as a development-quality state; it must not automatically be promoted to *usable*. The old document does not explicitly model `PROOF-n` or client dispositions.
 
 **Proposed reconciliation:** retain the previous file as historical evidence; add the new lifecycle semantics and proof track in a reviewed, versioned replacement or amendment; migrate only after confirming numeric carry/step rules and verifying existing records. Do not retroactively assign version/proof numbers to historic files without source and customer evidence. This draft does not silently supersede repository licensing, copyright, or existing client agreements.
 
