@@ -8,6 +8,8 @@
 **Runtime scope:** Plain JavaScript advisory-only function, no connections, no writes, no legal approvals  
 **Status:** `review_pending` — isolated test pass only; cross-system integration, legal accuracy under all circumstances and production readiness not verified
 
+**Custody correction (same source and test Git blobs):** Current runnable recommendation source and tests are now on the Laboratory [draft PR #6](https://github.com/DrMarchand/drmarchandslaboratory.com/pull/6), under `SoftwareLicensing/current/v0.0.1-initializing/`. The company [draft PR #18](https://github.com/DrMarchand/DesignOrchard.LLC/pull/18) contains the policy, catalog, schema, examples, and this receipt. No historical software version was deposited into the Library. The exact Git blob hashes below are unchanged by this transfer.
+
 ## Exact source verification
 
 | GitHub file | Git blob SHA-1 |
