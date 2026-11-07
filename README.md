@@ -67,3 +67,5 @@ Use [BRAND_DISPLAY_STANDARD.md](BRAND_DISPLAY_STANDARD.md) for current ™ / ℠
 The proposed [type-agnostic identity display contract](Registry/Identity/dynamic-identity-display-v0.0.1.md) keeps classifications such as programming language, service, and product separate from names and copyright; it is a draft and does not override the current brand or rights rules.
 
 The proposed [file-level rights notice standard](Registry/Rights/file-level-notice-standard-v0.0.1.md) specifies where a file itself displays a verified holder—or a clearly labeled pending work-specific rights status—without overriding existing licenses.
+
+The proposed [code-version and creative-proof lifecycle correction](Registry/Versioning/code-and-creative-lifecycle-correction-20261106.md) separates the `0.0.0` core anchor, `1.0.0` official core, and `1.0.1` usable milestone from per-project `PROOF-1`, `PROOF-2`, etc., with independent project dispositions. It is a draft reconciliation; it does not retroactively promote existing files or client proofs.
