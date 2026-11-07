@@ -27,7 +27,7 @@ The two JavaScript blobs were independently hashed in an isolated local containe
 - **19/19 tests passed**, 0 failed. This tested the exact JavaScript source/test bytes confirmed above.
 - Machine JSON checked from GitHub: **10/10 catalog and schema structural checks passed**; four sample inputs matched declared enums; six deliberately malformed samples were rejected by the basic shape/enum checker.
 - An equivalent locally generated JSON Schema was checked using Python `jsonschema` Draft 2020-12 and the same 4 positive and 6 negative scenarios. The GitHub JSON files were reserialized independently and do **not** share the exact local file hashes; no exact-byte remote Draft 2020-12 validation is claimed.
-- Tests cover: Apollo/Apache language-tooling preference, MIT utility preference, patent review, unresolved work-specific ownership, third-party dependency blockers, preexisting MIT preservation, excluded art/mixed assets, restrictive-terms mismatch, selected-license override flags, client-contract review, malformed inputs and no automated application.
+- Tests cover: Apache language-tooling preference, MIT utility preference, patent review, unresolved work-specific ownership, third-party dependency blockers, preexisting MIT preservation, excluded art/mixed assets, restrictive-terms mismatch, selected-license override flags, client-contract review, malformed inputs and no automated application.
 - **No Github `LICENSE` file changed. No licensing transaction or public release executed.**
 
 ## Legal and integration boundaries
