@@ -1,0 +1,69 @@
+{
+  "description": "Fictional examples; no releases, approvals, or copyright ownership asserted.",
+  "examples": [
+    {
+      "name": "Patent-sensitive language tooling: recommend Apache, licensing blocked",
+      "input": {
+        "artifactKind": "software_only",
+        "softwarePurpose": "language_or_engine",
+        "distribution": "public_release",
+        "patentConcern": "material",
+        "contributors": "multiple",
+        "rightsStatus": "pending",
+        "dependencyStatus": "unknown",
+        "existingLicense": "none",
+        "restrictionGoal": "none"
+      },
+      "expected_recommendation": "Apache-2.0",
+      "expected_blocker": "RIGHTS_PENDING"
+    },
+    {
+      "name": "Small independently cleared utility: recommend MIT, human decision still required",
+      "input": {
+        "artifactKind": "software_only",
+        "softwarePurpose": "small_utility",
+        "distribution": "public_release",
+        "patentConcern": "low",
+        "contributors": "single",
+        "rightsStatus": "verified",
+        "dependencyStatus": "cleared",
+        "existingLicense": "none",
+        "restrictionGoal": "none"
+      },
+      "expected_recommendation": "MIT",
+      "expected_blocker": null
+    },
+    {
+      "name": "Client artwork excluded from software selector",
+      "input": {
+        "artifactKind": "artwork_only",
+        "softwarePurpose": "language_or_engine",
+        "distribution": "public_release",
+        "patentConcern": "material",
+        "contributors": "multiple",
+        "rightsStatus": "pending",
+        "dependencyStatus": "unknown",
+        "existingLicense": "none",
+        "restrictionGoal": "none"
+      },
+      "expected_recommendation": null,
+      "expected_blocker": "NON_SOFTWARE_SCOPE"
+    },
+    {
+      "name": "Exclusive terms not offered by MIT or Apache",
+      "input": {
+        "artifactKind": "software_only",
+        "softwarePurpose": "language_or_engine",
+        "distribution": "public_release",
+        "patentConcern": "material",
+        "contributors": "multiple",
+        "rightsStatus": "pending",
+        "dependencyStatus": "unknown",
+        "existingLicense": "none",
+        "restrictionGoal": "exclusive"
+      },
+      "expected_recommendation": null,
+      "expected_blocker": "NEITHER_LICENSE_MATCHES_RESTRICTIONS"
+    }
+  ]
+}
