@@ -1,0 +1,112 @@
+{
+  "record_kind": "design_orchard_nana_proof_and_software_custody_proposal",
+  "schema_version": "0.0.1",
+  "recorded_on": "2026-11-07",
+  "status": "review_pending",
+  "effective_as_enforced_policy": false,
+  "system_name": "Design Orchard Nana proof system",
+  "authority_root": "Design Orchard LLC",
+  "creative": {
+    "operator": "KEJ Studio",
+    "presentation_and_production": "DrMarchand’s 🎨 Creative Canvas",
+    "records_owner_lane": "KEJ Studio",
+    "working_storage": "restricted KEJ Studio creative working storage; exact path not verified",
+    "proof_numbering": {
+      "first_created_proof": "PROOF-0",
+      "scope": "per_project_or_product",
+      "increments_on": "recorded_draft_creation",
+      "renumber_on_send": false
+    },
+    "created_and_sent_separate": true,
+    "sent_event_requires": [
+      "immutable_proof_ref",
+      "variant_ref",
+      "artwork_checksum",
+      "provider_issued_reference",
+      "timestamp",
+      "independent_verification_status"
+    ],
+    "selection": {
+      "refers_to": "exact approved proof and variant",
+      "must_not_use": "latest created by default"
+    },
+    "dispositions": {
+      "APPROVED": {
+        "reference": "selected proof/variant plus authenticated approval record"
+      },
+      "CANCELLED": {
+        "reference": "last verified sent proof at decision, or null"
+      },
+      "REFUNDED": {
+        "reference": "last verified sent proof at decision, or null",
+        "additional_requirement": "independent refund transaction evidence for completed refund claim"
+      }
+    },
+    "quality_checkpoints": {
+      "recommended_early_restart_review": "within first three drafts",
+      "recommended_latest_review": "by fifth draft",
+      "not_contractual_free_revision_allowance": true
+    },
+    "pricing_scope": {
+      "revision_rounds": "contract_defined",
+      "initial_concepts": "contract_defined",
+      "new_concepts_require_new_quote_and_client_approval": true,
+      "designer_private_drafts_not_automatically_billable": true
+    },
+    "privacy_and_fairness": {
+      "prefer": "dedicated proof-specific sender and authenticated client approval portal",
+      "do_not_access": [
+        "unrelated_employee_email",
+        "unrelated_client_email",
+        "full_mailbox",
+        "unnecessary_message_bodies"
+      ],
+      "verification_unavailable_is_not_misconduct": true,
+      "proof_of_send_distinct_from_delivery_read_and_approval": true
+    },
+    "historical_custody_not_automatically_assigned_to_library": true
+  },
+  "software": {
+    "active_lane": "🔬 DrMarchand’s Lab⚛︎ratory™",
+    "historical_lane": "📚 DrMarchand’s ⚛︎ Library™",
+    "laboratory_holds": "current working code version(s) and active development records",
+    "library_holds": "superseded/past code versions and actual historical version records",
+    "current_is_explicit": "not necessarily maximum number",
+    "may_have_multiple_current_versions": true,
+    "version_milestones": {
+      "core_anchor": "0.0.0",
+      "first_purposeful": "0.0.1",
+      "development_end": "0.9.9",
+      "official_core": "1.0.0",
+      "usable": "1.0.1"
+    },
+    "archive_transition_requires": [
+      "supersession_decision",
+      "immutable snapshot",
+      "source hash",
+      "version lineage",
+      "validation evidence",
+      "authorized disposition",
+      "destination_readback_and_integrity_receipt"
+    ],
+    "delete_last_recoverable_copy_before_archive_verified": false,
+    "historical_snapshot_does_not_prove_current_runtime": true,
+    "implementation_status": "not_verified"
+  },
+  "cross_lane_rules": {
+    "do_not_merge_creative_proof_ids_and_software_version_ids": true,
+    "do_not_auto_copy_restricted_client_evidence_to_library": true,
+    "copyright_owner_independent_of_operational_custody": true,
+    "repository_or_connector_path_is_not_proof_of_custody": true
+  },
+  "unresolved": [
+    "exact_storage_locations_and_permissions",
+    "client_auth_method_and_mail_delivery_provider",
+    "records_retention_and_privacy_controls",
+    "version_successor_rule",
+    "xyz-ABC internal stage grammar",
+    "signed work-specific rights records"
+  ],
+  "status_checks": "not_run",
+  "authorized_human_release": "pending"
+}
