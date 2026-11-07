@@ -67,6 +67,10 @@ Creation date is **not automatically** the year of first publication. Do not pla
 5. If a repository's LICENSE is missing, ambiguous, or incomplete, flag it rather than silently substituting a standard form.
 6. Do not modify or remove existing licenses, third-party attributions, or pre-existing grants through bulk header automation.
 
+## Apache/MIT license decision gate
+
+For new and changed **software** files, use the draft [purpose-first Apache/MIT licensing gate](../Licensing/README.md) to recommend between `Apache-2.0` and `MIT` based on software purpose, contributor/patent considerations, verified rights, third-party dependencies and existing grants. This system only advises; it does **not** create a license, assign copyright, approve release or overwrite a file's current notice. A file's copyright holder and its outbound license must remain independently verified. Art proofs remain KEJ Studio records and are outside this software-only selector.
+
 ## JHSPR reference and observed blockers
 
 The draft [JHSPR rights record](../../JHSPR/RIGHTS.md) and [file-rights ledger](../../JHSPR/_versions/v0.0.1-initializing/file-rights.json) show per-file status for the proposed `0.0.1-initializing` mirror. The JHSPR program and artwork should be separately documented.
