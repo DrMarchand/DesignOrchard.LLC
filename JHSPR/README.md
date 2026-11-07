@@ -12,6 +12,18 @@
 | --- | --- | --- |
 | `0.0.1` | Initializing; architecture-only | [Architecture baseline](_versions/v0.0.1-initializing/DO.DML.JHSPR.1__v0.0.1__architecture.md) · [Manifest](_versions/v0.0.1-initializing/manifest.json) |
 
+## Type-agnostic identity display
+
+JHSPR is a **programming language**, not automatically a product or service. The proposed display contract is `ALT IDENTITY.NAME [© YEAR OWNER only where rights are verified]`. Classification remains a separate field and must not be guessed from the name.
+
+**Current proposed visual identity:** `⚛︎ JHSPR`  
+**Stored classification:** `programming_language`  
+**Copyright notice:** withheld in the demonstration while work-specific ownership verification and authorization remain pending.
+
+[Display contract](_versions/v0.0.1-initializing/identity-display-contract.md) · [JSON schema](_versions/v0.0.1-initializing/identity-display.schema.json) · [Example records](_versions/v0.0.1-initializing/identity-display.examples.json) · [Formatter source](_versions/v0.0.1-initializing/format-identity.mjs) · [Tests](_versions/v0.0.1-initializing/format-identity.test.mjs) · [Validation receipt](_versions/v0.0.1-initializing/identity-display-validation-20261106.md)
+
+The formatter was checked in an isolated Node.js environment (6 passing tests) and the schema with positive and negative examples. This does **not** verify a JHSPR language runtime, a legal owner, or a public release.
+
 ## System boundaries
 
 **JHSPR** is intended to coordinate participating language definitions and implementations. **MURI** (Marchand Universal Runtime Interface) displays and interacts with code. **DOLSA** defines applicable contracts and standards. **DrMarchand’s ⚙︎ Nɛuro-Forge Engine** may orchestrate permitted execution only within delegated human authority. External Bridges remain separate connectors. Data sources and storage must be identified explicitly.

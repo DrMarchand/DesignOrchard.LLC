@@ -25,7 +25,13 @@
   "files": [
     "README.md",
     "_versions/v0.0.1-initializing/DO.DML.JHSPR.1__v0.0.1__architecture.md",
-    "_versions/v0.0.1-initializing/manifest.json"
+    "_versions/v0.0.1-initializing/manifest.json",
+    "_versions/v0.0.1-initializing/identity-display-contract.md",
+    "_versions/v0.0.1-initializing/identity-display.schema.json",
+    "_versions/v0.0.1-initializing/identity-display.examples.json",
+    "_versions/v0.0.1-initializing/format-identity.mjs",
+    "_versions/v0.0.1-initializing/format-identity.test.mjs",
+    "_versions/v0.0.1-initializing/identity-display-validation-20261106.md"
   ],
   "version_doctrine": "DrMarchand/DesignOrchard.LLC/Registry/Versioning/autonomous-versioning-doctrine.json",
   "non_claims": [
@@ -33,5 +39,28 @@
     "no_parser_or_loader_verified",
     "no_cross_language_execution_verified",
     "no_authorized_release_claim"
-  ]
+  ],
+  "identity": {
+    "alt": "⚛︎",
+    "name": "JHSPR",
+    "type": "programming_language",
+    "record_id": "DO.DML.JHSPR.1"
+  },
+  "display_contract": "ALT IDENTITY.NAME [© YEAR OWNER if verified for a qualifying work]",
+  "rights_review": {
+    "status": "pending",
+    "candidate_human_author": "Joseph Kyle Marchand",
+    "copyright_owner": "not_verified",
+    "publication_year": "not_established",
+    "license_to_company": "not_established",
+    "notice_policy": "omit_until_work_specific_evidence_and_approval"
+  },
+  "validation": {
+    "scope": "identity_display_demo_only",
+    "isolated_node_tests": "6_passed",
+    "json_schema": "valid_draft_2020_12",
+    "examples": "3_positive_4_negative",
+    "evidence_file": "_versions/v0.0.1-initializing/identity-display-validation-20261106.md",
+    "runtime_language_integration": "not_tested"
+  }
 }
