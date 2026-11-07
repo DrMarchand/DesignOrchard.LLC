@@ -54,6 +54,6 @@ The publicly visible `https://drmarchandslaboratory.com/app/` page was seen usin
 
 ## Decision gate
 
-**Prepublicaton checks:** exact product/technical scope, owner-proposed mark use, goods/services, confusingly similar names, source identity, human-authored material and rights, live-page ownership, evidence of deployment, authorized-human approval, and release/custody receipt.
+**Prepublication checks:** exact product/technical scope, owner-proposed mark use, goods/services, confusingly similar names, source identity, human-authored material and rights, live-page ownership, evidence of deployment, authorized-human approval, and release/custody receipt.
 
 **Disposition:** New name contexts are proposals, not a clearance or effective website update. Preserve historic technical identity and existing intellectual property records. No live-site content, copyright, mark registration, host user, folder, or code runtime was changed by this document.
